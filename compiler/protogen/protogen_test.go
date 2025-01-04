@@ -11,13 +11,13 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/testing/protocmp"
+	"github.com/gucooing/protobuf-xor/internal/genid"
+	"github.com/gucooing/protobuf-xor/proto"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/testing/protocmp"
 
-	"google.golang.org/protobuf/types/descriptorpb"
-	"google.golang.org/protobuf/types/pluginpb"
+	"github.com/gucooing/protobuf-xor/types/descriptorpb"
+	"github.com/gucooing/protobuf-xor/types/pluginpb"
 )
 
 func TestPluginParameters(t *testing.T) {

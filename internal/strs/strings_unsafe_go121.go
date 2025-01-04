@@ -9,7 +9,7 @@ package strs
 import (
 	"unsafe"
 
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
 )
 
 // UnsafeString returns an unsafe string reference of b.

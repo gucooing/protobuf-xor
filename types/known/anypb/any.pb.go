@@ -115,10 +115,10 @@
 package anypb
 
 import (
-	proto "google.golang.org/protobuf/proto"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoregistry "google.golang.org/protobuf/reflect/protoregistry"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	proto "github.com/gucooing/protobuf-xor/proto"
+	protoreflect "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protoregistry "github.com/gucooing/protobuf-xor/reflect/protoregistry"
+	protoimpl "github.com/gucooing/protobuf-xor/runtime/protoimpl"
 	reflect "reflect"
 	strings "strings"
 	sync "sync"

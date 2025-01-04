@@ -7,13 +7,13 @@ package proto_test
 import (
 	"testing"
 
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/internal/protobuild"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/gucooing/protobuf-xor/internal/flags"
+	"github.com/gucooing/protobuf-xor/internal/protobuild"
+	"github.com/gucooing/protobuf-xor/proto"
+	"github.com/gucooing/protobuf-xor/testing/protopack"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	weakpb "google.golang.org/protobuf/internal/testprotos/test/weak1"
+	testpb "github.com/gucooing/protobuf-xor/internal/testprotos/test"
+	weakpb "github.com/gucooing/protobuf-xor/internal/testprotos/test/weak1"
 )
 
 func init() {

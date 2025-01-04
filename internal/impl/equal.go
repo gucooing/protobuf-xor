@@ -7,9 +7,9 @@ package impl
 import (
 	"bytes"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"github.com/gucooing/protobuf-xor/encoding/protowire"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/runtime/protoiface"
 )
 
 func equal(in protoiface.EqualInput) protoiface.EqualOutput {

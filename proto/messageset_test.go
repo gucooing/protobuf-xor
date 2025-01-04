@@ -5,16 +5,16 @@
 package proto_test
 
 import (
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/internal/protobuild"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/gucooing/protobuf-xor/encoding/protowire"
+	"github.com/gucooing/protobuf-xor/internal/flags"
+	"github.com/gucooing/protobuf-xor/internal/protobuild"
+	"github.com/gucooing/protobuf-xor/proto"
+	"github.com/gucooing/protobuf-xor/testing/protopack"
 
-	"google.golang.org/protobuf/internal/testprotos/messageset/messagesetpb"
-	_ "google.golang.org/protobuf/internal/testprotos/messageset/messagesetpb/messagesetpb_opaque"
-	_ "google.golang.org/protobuf/internal/testprotos/messageset/msetextpb"
-	_ "google.golang.org/protobuf/internal/testprotos/messageset/msetextpb/msetextpb_opaque"
+	"github.com/gucooing/protobuf-xor/internal/testprotos/messageset/messagesetpb"
+	_ "github.com/gucooing/protobuf-xor/internal/testprotos/messageset/messagesetpb/messagesetpb_opaque"
+	_ "github.com/gucooing/protobuf-xor/internal/testprotos/messageset/msetextpb"
+	_ "github.com/gucooing/protobuf-xor/internal/testprotos/messageset/msetextpb/msetextpb_opaque"
 )
 
 func init() {

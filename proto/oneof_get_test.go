@@ -7,8 +7,8 @@ package proto_test
 import (
 	"testing"
 
-	testhybridpb "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_hybrid"
-	testopaquepb "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_opaque"
+	testhybridpb "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_hybrid"
+	testopaquepb "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_opaque"
 )
 
 func expectPanic(t *testing.T, f func(), fmt string, a ...any) {

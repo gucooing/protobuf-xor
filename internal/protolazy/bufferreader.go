@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"io"
 
-	"google.golang.org/protobuf/encoding/protowire"
+	"github.com/gucooing/protobuf-xor/encoding/protowire"
 )
 
 // BufferReader is a structure encapsulating a protobuf and a current position

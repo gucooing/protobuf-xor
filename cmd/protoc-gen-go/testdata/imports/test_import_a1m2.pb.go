@@ -8,9 +8,9 @@
 package imports
 
 import (
-	test_a_1 "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/imports/test_a_1"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	test_a_1 "github.com/gucooing/protobuf-xor/cmd/protoc-gen-go/testdata/imports/test_a_1"
+	protoreflect "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protoimpl "github.com/gucooing/protobuf-xor/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

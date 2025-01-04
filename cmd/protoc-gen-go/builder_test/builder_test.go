@@ -8,9 +8,9 @@ package builder_test
 import (
 	"testing"
 
-	testhybridpb "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_hybrid"
-	testopaquepb "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_opaque"
-	"google.golang.org/protobuf/proto"
+	testhybridpb "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_hybrid"
+	testopaquepb "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_opaque"
+	"github.com/gucooing/protobuf-xor/proto"
 )
 
 var enableLazy = proto.UnmarshalOptions{}

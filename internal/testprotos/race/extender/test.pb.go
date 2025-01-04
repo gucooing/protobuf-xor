@@ -8,9 +8,9 @@
 package extender
 
 import (
-	message "google.golang.org/protobuf/internal/testprotos/race/message"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	message "github.com/gucooing/protobuf-xor/internal/testprotos/race/message"
+	protoreflect "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protoimpl "github.com/gucooing/protobuf-xor/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

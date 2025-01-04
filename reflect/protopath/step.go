@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"google.golang.org/protobuf/internal/encoding/text"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/internal/encoding/text"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
 )
 
 // StepKind identifies the kind of step operation.

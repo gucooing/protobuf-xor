@@ -12,9 +12,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/gucooing/protobuf-xor/internal/genid"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/reflect/protoregistry"
 )
 
 // MessageInfo provides protobuf related functionality for a given Go type

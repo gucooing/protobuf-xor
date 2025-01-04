@@ -6,10 +6,10 @@
 package jsonfuzz
 
 import (
-	"google.golang.org/protobuf/encoding/protojson"
-	"google.golang.org/protobuf/proto"
+	"github.com/gucooing/protobuf-xor/encoding/protojson"
+	"github.com/gucooing/protobuf-xor/proto"
 
-	fuzzpb "google.golang.org/protobuf/internal/testprotos/fuzz"
+	fuzzpb "github.com/gucooing/protobuf-xor/internal/testprotos/fuzz"
 )
 
 // Fuzz is a fuzzer for proto.Marshal and proto.Unmarshal.

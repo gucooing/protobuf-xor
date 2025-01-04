@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/strs"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/encoding/protowire"
+	"github.com/gucooing/protobuf-xor/internal/strs"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
 )
 
 // pointerCoderFuncs is a set of pointer encoding functions.

@@ -10,9 +10,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/gucooing/protobuf-xor/internal/errors"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/reflect/protoregistry"
 )
 
 type extField struct {
@@ -24,7 +24,7 @@ type extField struct {
 // Its methods are safe for concurrent use.
 //
 // Types implements [protoregistry.MessageTypeResolver] and [protoregistry.ExtensionTypeResolver].
-// A Types may be used as a [google.golang.org/protobuf/proto.UnmarshalOptions.Resolver].
+// A Types may be used as a [github.com/gucooing/protobuf-xor/proto.UnmarshalOptions.Resolver].
 type Types struct {
 	// atomicExtFiles is used with sync/atomic and hence must be the first word
 	// of the struct to guarantee 64-bit alignment.

@@ -9,12 +9,12 @@ import (
 	"bytes"
 	"errors"
 
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/internal/order"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protopath"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/gucooing/protobuf-xor/internal/genid"
+	"github.com/gucooing/protobuf-xor/internal/order"
+	"github.com/gucooing/protobuf-xor/proto"
+	"github.com/gucooing/protobuf-xor/reflect/protopath"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/reflect/protoregistry"
 )
 
 var (

@@ -11,14 +11,14 @@ import (
 	"reflect"
 	"testing"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/testing/protopack"
-	"google.golang.org/protobuf/types/known/durationpb"
+	"github.com/gucooing/protobuf-xor/encoding/prototext"
+	"github.com/gucooing/protobuf-xor/proto"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/testing/protopack"
+	"github.com/gucooing/protobuf-xor/types/known/durationpb"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
+	testpb "github.com/gucooing/protobuf-xor/internal/testprotos/test"
+	test3pb "github.com/gucooing/protobuf-xor/internal/testprotos/test3"
 )
 
 func TestDecode(t *testing.T) {

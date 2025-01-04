@@ -12,8 +12,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"google.golang.org/protobuf/internal/detrand"
-	"google.golang.org/protobuf/internal/encoding/json"
+	"github.com/gucooing/protobuf-xor/internal/detrand"
+	"github.com/gucooing/protobuf-xor/internal/encoding/json"
 )
 
 // Disable detrand to enable direct comparisons on outputs.

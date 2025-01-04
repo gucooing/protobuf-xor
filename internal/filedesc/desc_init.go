@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"sync"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/internal/strs"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/encoding/protowire"
+	"github.com/gucooing/protobuf-xor/internal/genid"
+	"github.com/gucooing/protobuf-xor/internal/strs"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
 )
 
 // fileRaw is a data struct used when initializing a file descriptor from

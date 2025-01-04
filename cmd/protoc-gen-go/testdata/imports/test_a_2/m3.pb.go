@@ -8,8 +8,8 @@
 package test_a_2
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protoimpl "github.com/gucooing/protobuf-xor/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

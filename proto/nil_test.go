@@ -7,10 +7,10 @@ package proto_test
 import (
 	"testing"
 
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/proto"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
+	testpb "github.com/gucooing/protobuf-xor/internal/testprotos/test"
 )
 
 // TestNil tests for boundary conditions when nil and typed-nil messages

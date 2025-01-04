@@ -10,10 +10,10 @@ import (
 	"testing"
 	"unsafe"
 
-	"google.golang.org/protobuf/internal/impl"
-	testhybridpb "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_hybrid"
-	testopaquepb "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_opaque"
-	"google.golang.org/protobuf/proto"
+	"github.com/gucooing/protobuf-xor/internal/impl"
+	testhybridpb "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_hybrid"
+	testopaquepb "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_opaque"
+	"github.com/gucooing/protobuf-xor/proto"
 )
 
 func TestOpenSetRepeatedNilReceiver(t *testing.T) {

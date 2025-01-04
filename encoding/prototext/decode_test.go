@@ -10,18 +10,18 @@ import (
 	"strings"
 	"testing"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/internal/protobuild"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/gucooing/protobuf-xor/encoding/prototext"
+	"github.com/gucooing/protobuf-xor/internal/flags"
+	"github.com/gucooing/protobuf-xor/internal/protobuild"
+	"github.com/gucooing/protobuf-xor/proto"
+	"github.com/gucooing/protobuf-xor/reflect/protoregistry"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	weakpb "google.golang.org/protobuf/internal/testprotos/test/weak1"
-	pb2 "google.golang.org/protobuf/internal/testprotos/textpb2"
-	pb3 "google.golang.org/protobuf/internal/testprotos/textpb3"
-	pbeditions "google.golang.org/protobuf/internal/testprotos/textpbeditions"
-	"google.golang.org/protobuf/types/known/anypb"
+	testpb "github.com/gucooing/protobuf-xor/internal/testprotos/test"
+	weakpb "github.com/gucooing/protobuf-xor/internal/testprotos/test/weak1"
+	pb2 "github.com/gucooing/protobuf-xor/internal/testprotos/textpb2"
+	pb3 "github.com/gucooing/protobuf-xor/internal/testprotos/textpb3"
+	pbeditions "github.com/gucooing/protobuf-xor/internal/testprotos/textpbeditions"
+	"github.com/gucooing/protobuf-xor/types/known/anypb"
 )
 
 func TestUnmarshal(t *testing.T) {

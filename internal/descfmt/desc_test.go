@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"testing"
 
-	"google.golang.org/protobuf/internal/descfmt"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/internal/descfmt"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
+	testpb "github.com/gucooing/protobuf-xor/internal/testprotos/test"
 )
 
 // TestDescriptorAccessors tests that descriptorAccessors is up-to-date.

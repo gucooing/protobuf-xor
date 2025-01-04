@@ -17,14 +17,14 @@
 package editions
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	anypb "google.golang.org/protobuf/types/known/anypb"
-	durationpb "google.golang.org/protobuf/types/known/durationpb"
-	fieldmaskpb "google.golang.org/protobuf/types/known/fieldmaskpb"
-	structpb "google.golang.org/protobuf/types/known/structpb"
-	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
-	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
+	protoreflect "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protoimpl "github.com/gucooing/protobuf-xor/runtime/protoimpl"
+	anypb "github.com/gucooing/protobuf-xor/types/known/anypb"
+	durationpb "github.com/gucooing/protobuf-xor/types/known/durationpb"
+	fieldmaskpb "github.com/gucooing/protobuf-xor/types/known/fieldmaskpb"
+	structpb "github.com/gucooing/protobuf-xor/types/known/structpb"
+	timestamppb "github.com/gucooing/protobuf-xor/types/known/timestamppb"
+	wrapperspb "github.com/gucooing/protobuf-xor/types/known/wrapperspb"
 	reflect "reflect"
 	sync "sync"
 )

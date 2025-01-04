@@ -7,10 +7,10 @@ package filedesc
 import (
 	"fmt"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/editiondefaults"
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/encoding/protowire"
+	"github.com/gucooing/protobuf-xor/internal/editiondefaults"
+	"github.com/gucooing/protobuf-xor/internal/genid"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
 )
 
 var defaultsCache = make(map[Edition]EditionFeatures)

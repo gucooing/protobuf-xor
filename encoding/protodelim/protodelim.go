@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"io"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/proto"
+	"github.com/gucooing/protobuf-xor/encoding/protowire"
+	"github.com/gucooing/protobuf-xor/internal/errors"
+	"github.com/gucooing/protobuf-xor/proto"
 )
 
 // MarshalOptions is a configurable varint size-delimited marshaler.

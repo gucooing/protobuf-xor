@@ -5,8 +5,8 @@
 package protogen
 
 import (
-	"google.golang.org/protobuf/internal/strs"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/internal/strs"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
 )
 
 func opaqueNewFieldHook(desc protoreflect.FieldDescriptor, field *Field) {

@@ -27,9 +27,9 @@
 package test_name_clash_opaque3
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	_ "google.golang.org/protobuf/types/gofeaturespb"
+	protoreflect "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protoimpl "github.com/gucooing/protobuf-xor/runtime/protoimpl"
+	_ "github.com/gucooing/protobuf-xor/types/gofeaturespb"
 	reflect "reflect"
 )
 

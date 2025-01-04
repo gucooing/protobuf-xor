@@ -5,19 +5,19 @@
 package proto_test
 
 import (
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/impl"
-	"google.golang.org/protobuf/internal/protobuild"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/gucooing/protobuf-xor/encoding/protowire"
+	"github.com/gucooing/protobuf-xor/internal/impl"
+	"github.com/gucooing/protobuf-xor/internal/protobuild"
+	"github.com/gucooing/protobuf-xor/proto"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/reflect/protoregistry"
+	"github.com/gucooing/protobuf-xor/testing/protopack"
 
-	legacypb "google.golang.org/protobuf/internal/testprotos/legacy"
-	requiredpb "google.golang.org/protobuf/internal/testprotos/required"
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
-	testeditionspb "google.golang.org/protobuf/internal/testprotos/testeditions"
+	legacypb "github.com/gucooing/protobuf-xor/internal/testprotos/legacy"
+	requiredpb "github.com/gucooing/protobuf-xor/internal/testprotos/required"
+	testpb "github.com/gucooing/protobuf-xor/internal/testprotos/test"
+	test3pb "github.com/gucooing/protobuf-xor/internal/testprotos/test3"
+	testeditionspb "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions"
 )
 
 type testProto struct {

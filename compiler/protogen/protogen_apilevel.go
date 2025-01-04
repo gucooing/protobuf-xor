@@ -7,10 +7,10 @@ package protogen
 import (
 	"fmt"
 
-	"google.golang.org/protobuf/internal/filedesc"
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/types/gofeaturespb"
+	"github.com/gucooing/protobuf-xor/internal/filedesc"
+	"github.com/gucooing/protobuf-xor/internal/genid"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/types/gofeaturespb"
 )
 
 func fileAPILevel(fd protoreflect.FileDescriptor, def gofeaturespb.GoFeatures_APILevel) gofeaturespb.GoFeatures_APILevel {

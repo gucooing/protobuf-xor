@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"google.golang.org/protobuf/proto"
+	"github.com/gucooing/protobuf-xor/proto"
 )
 
 // The results of these microbenchmarks are unlikely to correspond well

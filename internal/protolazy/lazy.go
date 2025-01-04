@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"sort"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	piface "google.golang.org/protobuf/runtime/protoiface"
+	"github.com/gucooing/protobuf-xor/encoding/protowire"
+	piface "github.com/gucooing/protobuf-xor/runtime/protoiface"
 )
 
 // IndexEntry is the structure for an index of the fields in a message of a

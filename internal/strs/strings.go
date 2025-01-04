@@ -11,8 +11,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/internal/flags"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
 )
 
 // EnforceUTF8 reports whether to enforce strict UTF-8 validation.

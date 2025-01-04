@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"google.golang.org/protobuf/internal/protolazy"
+	"github.com/gucooing/protobuf-xor/internal/protolazy"
 )
 
 const UnsafeEnabled = true

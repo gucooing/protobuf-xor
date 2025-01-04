@@ -9,7 +9,7 @@ import (
 	"errors"
 	"fmt"
 
-	"google.golang.org/protobuf/internal/detrand"
+	"github.com/gucooing/protobuf-xor/internal/detrand"
 )
 
 // Error is a sentinel matching all errors produced by this package.
