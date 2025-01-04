@@ -8,7 +8,6 @@ import (
 	"testing"
 
 	"github.com/gucooing/zzz/protobuf/encoding/protojson"
-
 	"github.com/gucooing/zzz/protobuf/types/known/durationpb"
 )
 

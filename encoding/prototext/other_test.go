@@ -7,17 +7,17 @@ package prototext_test
 import (
 	"testing"
 
-	"github.com/gucooing/zzz/protobuf/encoding/prototext"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/prototext"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
 
-	pb2 "github.com/gucooing/zzz/protobuf/internal/testprotos/textpb2"
-	"github.com/gucooing/zzz/protobuf/types/known/anypb"
-	"github.com/gucooing/zzz/protobuf/types/known/durationpb"
-	"github.com/gucooing/zzz/protobuf/types/known/emptypb"
-	"github.com/gucooing/zzz/protobuf/types/known/structpb"
-	"github.com/gucooing/zzz/protobuf/types/known/timestamppb"
-	"github.com/gucooing/zzz/protobuf/types/known/wrapperspb"
+	pb2 protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/textpb2"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/anypb"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/durationpb"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/emptypb"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/structpb"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/timestamppb"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/wrapperspb"
 )
 
 func TestRoundTrip(t *testing.T) {

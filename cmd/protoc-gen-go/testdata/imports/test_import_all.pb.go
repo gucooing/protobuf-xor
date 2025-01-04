@@ -8,12 +8,12 @@
 package imports
 
 import (
-	fmt "github.com/gucooing/zzz/protobuf/cmd/protoc-gen-go/testdata/imports/fmt"
-	test_a_1 "github.com/gucooing/zzz/protobuf/cmd/protoc-gen-go/testdata/imports/test_a_1"
-	_ "github.com/gucooing/zzz/protobuf/cmd/protoc-gen-go/testdata/imports/test_a_2"
-	test_b_1 "github.com/gucooing/zzz/protobuf/cmd/protoc-gen-go/testdata/imports/test_b_1"
-	protoreflect "github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	protoimpl "github.com/gucooing/zzz/protobuf/runtime/protoimpl"
+	fmt protobuf "github.com/gucooing/protobuf-xor/cmd/protoc-gen-go/testdata/imports/fmt"
+	test_a_1 protobuf "github.com/gucooing/protobuf-xor/cmd/protoc-gen-go/testdata/imports/test_a_1"
+	_ protobuf "github.com/gucooing/protobuf-xor/cmd/protoc-gen-go/testdata/imports/test_a_2"
+	test_b_1 protobuf "github.com/gucooing/protobuf-xor/cmd/protoc-gen-go/testdata/imports/test_b_1"
+	protoreflect protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protoimpl protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/gucooing/zzz/protobuf/internal/detrand"
-	"github.com/gucooing/zzz/protobuf/internal/pragma"
+	"github.com/gucooing/protobuf-xor/internal/detrand"
+	"github.com/gucooing/protobuf-xor/internal/pragma"
 	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
 )
 

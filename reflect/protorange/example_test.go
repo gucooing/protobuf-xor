@@ -9,17 +9,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gucooing/zzz/protobuf/encoding/protojson"
-	"github.com/gucooing/zzz/protobuf/internal/detrand"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protopath"
-	"github.com/gucooing/zzz/protobuf/reflect/protorange"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/testing/protopack"
-	"github.com/gucooing/zzz/protobuf/types/known/anypb"
-	"github.com/gucooing/zzz/protobuf/types/known/timestamppb"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/protojson"
+	protobuf "github.com/gucooing/protobuf-xor/internal/detrand"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protopath"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protorange"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/testing/protopack"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/anypb"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/timestamppb"
 
-	newspb "github.com/gucooing/zzz/protobuf/internal/testprotos/news"
+	newspb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/news"
 )
 
 func init() {

@@ -5,9 +5,9 @@
 package proto
 
 import (
-	"github.com/gucooing/zzz/protobuf/internal/errors"
+	"github.com/gucooing/protobuf-xor/internal/errors"
+	"github.com/gucooing/protobuf-xor/runtime/protoiface"
 	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/runtime/protoiface"
 )
 
 // CheckInitialized returns an error if any required fields in m are not set.

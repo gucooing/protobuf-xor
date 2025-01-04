@@ -7,8 +7,8 @@ package proto
 import (
 	"reflect"
 
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/runtime/protoiface"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/runtime/protoiface"
 )
 
 // Equal reports whether two messages are equal,

@@ -7,7 +7,7 @@ package wirefuzz
 import (
 	"testing"
 
-	"github.com/gucooing/zzz/protobuf/internal/fuzztest"
+	"github.com/gucooing/protobuf-xor/internal/fuzztest"
 )
 
 func Test(t *testing.T) {

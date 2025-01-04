@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/gucooing/zzz/protobuf/encoding/protowire"
-	"github.com/gucooing/zzz/protobuf/internal/errors"
-	"github.com/gucooing/zzz/protobuf/proto"
+	"github.com/gucooing/protobuf-xor/encoding/protowire"
+	"github.com/gucooing/protobuf-xor/internal/errors"
+	"github.com/gucooing/protobuf-xor/proto"
 	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
 	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
 	"github.com/gucooing/zzz/protobuf/runtime/protoiface"

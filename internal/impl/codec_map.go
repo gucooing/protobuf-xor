@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/gucooing/zzz/protobuf/encoding/protowire"
+	"github.com/gucooing/protobuf-xor/encoding/protowire"
 	"github.com/gucooing/zzz/protobuf/internal/errors"
 	"github.com/gucooing/zzz/protobuf/internal/genid"
 	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"

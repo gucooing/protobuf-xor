@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gucooing/zzz/protobuf/internal/version"
+	"github.com/gucooing/protobuf-xor/internal/version"
 )
 
 var (

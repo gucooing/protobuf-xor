@@ -10,15 +10,15 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protopath"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
-	"github.com/gucooing/zzz/protobuf/testing/protocmp"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protopath"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
+	protobuf "github.com/gucooing/protobuf-xor/testing/protocmp"
 
-	newspb "github.com/gucooing/zzz/protobuf/internal/testprotos/news"
-	"github.com/gucooing/zzz/protobuf/types/known/anypb"
-	"github.com/gucooing/zzz/protobuf/types/known/timestamppb"
+	newspb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/news"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/anypb"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/timestamppb"
 )
 
 func mustMarshal(m proto.Message) []byte {

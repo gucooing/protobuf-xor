@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/gucooing/protobuf-xor/internal/genid"
+	"github.com/gucooing/protobuf-xor/internal/strs"
 	"github.com/gucooing/zzz/protobuf/encoding/protowire"
-	"github.com/gucooing/zzz/protobuf/internal/genid"
-	"github.com/gucooing/zzz/protobuf/internal/strs"
 	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
 )
 

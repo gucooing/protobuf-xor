@@ -11,17 +11,17 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gucooing/zzz/protobuf/encoding/protowire"
-	"github.com/gucooing/zzz/protobuf/internal/encoding/json"
+	"github.com/gucooing/protobuf-xor/encoding/protowire"
+	"github.com/gucooing/protobuf-xor/internal/encoding/json"
+	"github.com/gucooing/protobuf-xor/internal/set"
+	"github.com/gucooing/protobuf-xor/proto"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/reflect/protoregistry"
 	"github.com/gucooing/zzz/protobuf/internal/encoding/messageset"
 	"github.com/gucooing/zzz/protobuf/internal/errors"
 	"github.com/gucooing/zzz/protobuf/internal/flags"
 	"github.com/gucooing/zzz/protobuf/internal/genid"
 	"github.com/gucooing/zzz/protobuf/internal/pragma"
-	"github.com/gucooing/zzz/protobuf/internal/set"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
 )
 
 // Unmarshal reads the given []byte into the given [proto.Message].

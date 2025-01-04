@@ -16,13 +16,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gucooing/zzz/protobuf/encoding/protowire"
-	"github.com/gucooing/zzz/protobuf/internal/detrand"
-	"github.com/gucooing/zzz/protobuf/internal/genid"
-	"github.com/gucooing/zzz/protobuf/internal/order"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
+	"github.com/gucooing/protobuf-xor/encoding/protowire"
+	"github.com/gucooing/protobuf-xor/internal/detrand"
+	"github.com/gucooing/protobuf-xor/internal/genid"
+	"github.com/gucooing/protobuf-xor/internal/order"
+	"github.com/gucooing/protobuf-xor/proto"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/reflect/protoregistry"
 )
 
 // Format returns a formatted string for the message.

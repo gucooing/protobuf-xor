@@ -8,12 +8,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
-	"github.com/gucooing/zzz/protobuf/types/descriptorpb"
-	"github.com/gucooing/zzz/protobuf/types/dynamicpb"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
+	protobuf "github.com/gucooing/protobuf-xor/types/descriptorpb"
+	protobuf "github.com/gucooing/protobuf-xor/types/dynamicpb"
 
-	registrypb "github.com/gucooing/zzz/protobuf/internal/testprotos/registry"
+	registrypb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/registry"
 )
 
 var _ protoregistry.ExtensionTypeResolver = &dynamicpb.Types{}

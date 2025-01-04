@@ -13,8 +13,8 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/reflect/protoregistry"
 )
 
 // A Value is a value assignable to a field.

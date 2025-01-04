@@ -16,18 +16,18 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/gucooing/zzz/protobuf/compiler/protogen"
-	"github.com/gucooing/zzz/protobuf/internal/editionssupport"
-	"github.com/gucooing/zzz/protobuf/internal/encoding/tag"
-	"github.com/gucooing/zzz/protobuf/internal/filedesc"
-	"github.com/gucooing/zzz/protobuf/internal/genid"
-	"github.com/gucooing/zzz/protobuf/internal/version"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/runtime/protoimpl"
+	protobuf "github.com/gucooing/protobuf-xor/compiler/protogen"
+	protobuf "github.com/gucooing/protobuf-xor/internal/editionssupport"
+	protobuf "github.com/gucooing/protobuf-xor/internal/encoding/tag"
+	protobuf "github.com/gucooing/protobuf-xor/internal/filedesc"
+	protobuf "github.com/gucooing/protobuf-xor/internal/genid"
+	protobuf "github.com/gucooing/protobuf-xor/internal/version"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl"
 
-	"github.com/gucooing/zzz/protobuf/types/descriptorpb"
-	"github.com/gucooing/zzz/protobuf/types/gofeaturespb"
-	"github.com/gucooing/zzz/protobuf/types/pluginpb"
+	protobuf "github.com/gucooing/protobuf-xor/types/descriptorpb"
+	protobuf "github.com/gucooing/protobuf-xor/types/gofeaturespb"
+	protobuf "github.com/gucooing/protobuf-xor/types/pluginpb"
 )
 
 // SupportedFeatures reports the set of supported protobuf language features.
@@ -58,12 +58,12 @@ const (
 // patched to support unique build environments that impose restrictions
 // on the dependencies of generated source code.
 var (
-	protoPackage         goImportPath = protogen.GoImportPath("github.com/gucooing/zzz/protobuf/proto")
-	protoifacePackage    goImportPath = protogen.GoImportPath("github.com/gucooing/zzz/protobuf/runtime/protoiface")
-	protoimplPackage     goImportPath = protogen.GoImportPath("github.com/gucooing/zzz/protobuf/runtime/protoimpl")
-	protojsonPackage     goImportPath = protogen.GoImportPath("github.com/gucooing/zzz/protobuf/encoding/protojson")
-	protoreflectPackage  goImportPath = protogen.GoImportPath("github.com/gucooing/zzz/protobuf/reflect/protoreflect")
-	protoregistryPackage goImportPath = protogen.GoImportPath("github.com/gucooing/zzz/protobuf/reflect/protoregistry")
+	protoPackage         goImportPath = protogen.GoImportPath(protobuf "github.com/gucooing/protobuf-xor/proto")
+	protoifacePackage    goImportPath = protogen.GoImportPath(protobuf "github.com/gucooing/protobuf-xor/runtime/protoiface")
+	protoimplPackage     goImportPath = protogen.GoImportPath(protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl")
+	protojsonPackage     goImportPath = protogen.GoImportPath(protobuf "github.com/gucooing/protobuf-xor/encoding/protojson")
+	protoreflectPackage  goImportPath = protogen.GoImportPath(protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect")
+	protoregistryPackage goImportPath = protogen.GoImportPath(protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry")
 )
 
 type goImportPath interface {

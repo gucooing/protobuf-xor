@@ -15,12 +15,12 @@ import (
 	"log"
 	"os"
 
-	"github.com/gucooing/zzz/protobuf/encoding/protojson"
-	"github.com/gucooing/zzz/protobuf/encoding/prototext"
-	"github.com/gucooing/zzz/protobuf/proto"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/protojson"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/prototext"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
 
-	fuzzpb "github.com/gucooing/zzz/protobuf/internal/testprotos/fuzz"
-	testpb "github.com/gucooing/zzz/protobuf/internal/testprotos/test"
+	fuzzpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/fuzz"
+	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test"
 )
 
 var messages = []proto.Message{

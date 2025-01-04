@@ -11,19 +11,19 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/gucooing/zzz/protobuf/internal/detrand"
-	"github.com/gucooing/zzz/protobuf/internal/msgfmt"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/testing/protocmp"
-	"github.com/gucooing/zzz/protobuf/testing/protopack"
+	protobuf "github.com/gucooing/protobuf-xor/internal/detrand"
+	protobuf "github.com/gucooing/protobuf-xor/internal/msgfmt"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/testing/protocmp"
+	protobuf "github.com/gucooing/protobuf-xor/testing/protopack"
 
-	testpb "github.com/gucooing/zzz/protobuf/internal/testprotos/test"
-	textpb "github.com/gucooing/zzz/protobuf/internal/testprotos/textpb2"
-	dynpb "github.com/gucooing/zzz/protobuf/types/dynamicpb"
-	"github.com/gucooing/zzz/protobuf/types/known/anypb"
-	durpb "github.com/gucooing/zzz/protobuf/types/known/durationpb"
-	tspb "github.com/gucooing/zzz/protobuf/types/known/timestamppb"
-	wpb "github.com/gucooing/zzz/protobuf/types/known/wrapperspb"
+	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test"
+	textpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/textpb2"
+	dynpb protobuf "github.com/gucooing/protobuf-xor/types/dynamicpb"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/anypb"
+	durpb protobuf "github.com/gucooing/protobuf-xor/types/known/durationpb"
+	tspb protobuf "github.com/gucooing/protobuf-xor/types/known/timestamppb"
+	wpb protobuf "github.com/gucooing/protobuf-xor/types/known/wrapperspb"
 )
 
 func init() {

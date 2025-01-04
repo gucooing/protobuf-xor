@@ -27,19 +27,18 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gucooing/zzz/protobuf/encoding/prototext"
-	"github.com/gucooing/zzz/protobuf/internal/filedesc"
-	"github.com/gucooing/zzz/protobuf/internal/genid"
-	"github.com/gucooing/zzz/protobuf/internal/strs"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protodesc"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
-	"github.com/gucooing/zzz/protobuf/types/dynamicpb"
-
-	"github.com/gucooing/zzz/protobuf/types/descriptorpb"
-	"github.com/gucooing/zzz/protobuf/types/gofeaturespb"
-	"github.com/gucooing/zzz/protobuf/types/pluginpb"
+	"github.com/gucooing/protobuf-xor/encoding/prototext"
+	"github.com/gucooing/protobuf-xor/internal/filedesc"
+	"github.com/gucooing/protobuf-xor/internal/genid"
+	"github.com/gucooing/protobuf-xor/internal/strs"
+	"github.com/gucooing/protobuf-xor/proto"
+	"github.com/gucooing/protobuf-xor/reflect/protodesc"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/reflect/protoregistry"
+	"github.com/gucooing/protobuf-xor/types/descriptorpb"
+	"github.com/gucooing/protobuf-xor/types/dynamicpb"
+	"github.com/gucooing/protobuf-xor/types/gofeaturespb"
+	"github.com/gucooing/protobuf-xor/types/pluginpb"
 )
 
 const goPackageDocURL = "https://protobuf.dev/reference/go/go-generated#package"
@@ -277,7 +276,7 @@ func (opts Options) New(req *pluginpb.CodeGeneratorRequest) (*Plugin, error) {
 	// .proto source file specifying the full import path of the Go package
 	// associated with this file.
 	//
-	//     option go_package = "github.com/gucooing/zzz/protobuf/types/known/anypb";
+	//     option go_package = "github.com/gucooing/protobuf-xor/types/known/anypb";
 	//
 	// Alternatively, build systems which want to exert full control over
 	// import paths may specify M<filename>=<import_path> flags.
@@ -1408,7 +1407,7 @@ func newGoIdent(f *File, d protoreflect.Descriptor) GoIdent {
 }
 
 // A GoImportPath is the import path of a Go package.
-// For example: "github.com/gucooing/zzz/protobuf/compiler/protogen"
+// For example: protobuf "github.com/gucooing/protobuf-xor/compiler/protogen"
 type GoImportPath string
 
 func (p GoImportPath) String() string { return strconv.Quote(string(p)) }

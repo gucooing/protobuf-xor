@@ -15,13 +15,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gucooing/zzz/protobuf/encoding/protojson"
-	"github.com/gucooing/zzz/protobuf/encoding/prototext"
-	"github.com/gucooing/zzz/protobuf/proto"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/protojson"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/prototext"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
 
-	pb "github.com/gucooing/zzz/protobuf/internal/testprotos/conformance"
-	epb "github.com/gucooing/zzz/protobuf/internal/testprotos/conformance/editions"
-	empb "github.com/gucooing/zzz/protobuf/internal/testprotos/conformance/editionsmigration"
+	pb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/conformance"
+	epb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/conformance/editions"
+	empb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/conformance/editionsmigration"
 )
 
 func init() {

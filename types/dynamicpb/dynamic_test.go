@@ -8,14 +8,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
-	"github.com/gucooing/zzz/protobuf/testing/prototest"
-	"github.com/gucooing/zzz/protobuf/types/dynamicpb"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
+	protobuf "github.com/gucooing/protobuf-xor/testing/prototest"
+	protobuf "github.com/gucooing/protobuf-xor/types/dynamicpb"
 
-	testpb "github.com/gucooing/zzz/protobuf/internal/testprotos/test"
-	test3pb "github.com/gucooing/zzz/protobuf/internal/testprotos/test3"
+	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test"
+	test3pb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test3"
 )
 
 func TestConformance(t *testing.T) {

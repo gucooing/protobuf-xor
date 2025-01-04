@@ -11,14 +11,14 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/gucooing/zzz/protobuf/internal/descfmt"
+	"github.com/gucooing/protobuf-xor/internal/descfmt"
+	"github.com/gucooing/protobuf-xor/internal/encoding/defval"
+	"github.com/gucooing/protobuf-xor/internal/encoding/messageset"
+	"github.com/gucooing/protobuf-xor/internal/genid"
+	"github.com/gucooing/protobuf-xor/internal/strs"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
 	"github.com/gucooing/zzz/protobuf/internal/descopts"
-	"github.com/gucooing/zzz/protobuf/internal/encoding/defval"
-	"github.com/gucooing/zzz/protobuf/internal/encoding/messageset"
-	"github.com/gucooing/zzz/protobuf/internal/genid"
 	"github.com/gucooing/zzz/protobuf/internal/pragma"
-	"github.com/gucooing/zzz/protobuf/internal/strs"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
 	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
 )
 

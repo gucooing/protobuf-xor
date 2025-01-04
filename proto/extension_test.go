@@ -12,17 +12,17 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/gucooing/zzz/protobuf/internal/test/race"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/runtime/protoimpl"
-	"github.com/gucooing/zzz/protobuf/testing/protocmp"
+	protobuf "github.com/gucooing/protobuf-xor/internal/test/race"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl"
+	protobuf "github.com/gucooing/protobuf-xor/testing/protocmp"
 
-	legacy1pb "github.com/gucooing/zzz/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb "github.com/gucooing/zzz/protobuf/internal/testprotos/test"
-	test3pb "github.com/gucooing/zzz/protobuf/internal/testprotos/test3"
-	testeditionspb "github.com/gucooing/zzz/protobuf/internal/testprotos/testeditions"
-	descpb "github.com/gucooing/zzz/protobuf/types/descriptorpb"
+	legacy1pb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test"
+	test3pb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test3"
+	testeditionspb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions"
+	descpb protobuf "github.com/gucooing/protobuf-xor/types/descriptorpb"
 )
 
 func TestExtensionFuncs(t *testing.T) {

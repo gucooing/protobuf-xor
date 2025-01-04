@@ -10,13 +10,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gucooing/zzz/protobuf/internal/descopts"
-	ptag "github.com/gucooing/zzz/protobuf/internal/encoding/tag"
-	"github.com/gucooing/zzz/protobuf/internal/errors"
-	"github.com/gucooing/zzz/protobuf/internal/filedesc"
-	"github.com/gucooing/zzz/protobuf/internal/strs"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/runtime/protoiface"
+	protobuf "github.com/gucooing/protobuf-xor/internal/descopts"
+	ptag protobuf "github.com/gucooing/protobuf-xor/internal/encoding/tag"
+	protobuf "github.com/gucooing/protobuf-xor/internal/errors"
+	protobuf "github.com/gucooing/protobuf-xor/internal/filedesc"
+	protobuf "github.com/gucooing/protobuf-xor/internal/strs"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/runtime/protoiface"
 )
 
 // legacyWrapMessage wraps v as a protoreflect.Message,

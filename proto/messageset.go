@@ -5,11 +5,11 @@
 package proto
 
 import (
+	"github.com/gucooing/protobuf-xor/internal/encoding/messageset"
+	"github.com/gucooing/protobuf-xor/internal/errors"
+	"github.com/gucooing/protobuf-xor/internal/order"
 	"github.com/gucooing/zzz/protobuf/encoding/protowire"
-	"github.com/gucooing/zzz/protobuf/internal/encoding/messageset"
-	"github.com/gucooing/zzz/protobuf/internal/errors"
 	"github.com/gucooing/zzz/protobuf/internal/flags"
-	"github.com/gucooing/zzz/protobuf/internal/order"
 	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
 	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
 )

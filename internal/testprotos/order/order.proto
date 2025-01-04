@@ -8,7 +8,7 @@ syntax = "proto2";
 
 package goproto.proto.order;
 
-option go_package = "github.com/gucooing/zzz/protobuf/internal/testprotos/order";
+option go_package = "github.com/gucooing/protobuf-xor/internal/testprotos/order";
 
 message Message {
   optional string field_2 = 2;

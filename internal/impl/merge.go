@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/gucooing/zzz/protobuf/proto"
+	"github.com/gucooing/protobuf-xor/proto"
 	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
 	"github.com/gucooing/zzz/protobuf/runtime/protoiface"
 )

@@ -4,9 +4,7 @@
 
 package proto
 
-import (
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-)
+import "github.com/gucooing/protobuf-xor/reflect/protoreflect"
 
 // HasExtension reports whether an extension field is populated.
 // It returns false if m is invalid or if xt does not extend m.

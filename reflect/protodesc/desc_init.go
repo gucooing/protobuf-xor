@@ -5,13 +5,12 @@
 package protodesc
 
 import (
+	"github.com/gucooing/protobuf-xor/internal/filedesc"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/types/descriptorpb"
 	"github.com/gucooing/zzz/protobuf/internal/errors"
-	"github.com/gucooing/zzz/protobuf/internal/filedesc"
 	"github.com/gucooing/zzz/protobuf/internal/strs"
 	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-
-	"github.com/gucooing/zzz/protobuf/types/descriptorpb"
 )
 
 type descsByName map[protoreflect.FullName]protoreflect.Descriptor

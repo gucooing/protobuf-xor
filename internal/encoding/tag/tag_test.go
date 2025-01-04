@@ -8,11 +8,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gucooing/zzz/protobuf/internal/encoding/tag"
+	"github.com/gucooing/protobuf-xor/internal/encoding/tag"
+	"github.com/gucooing/protobuf-xor/proto"
+	"github.com/gucooing/protobuf-xor/reflect/protodesc"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
 	"github.com/gucooing/zzz/protobuf/internal/filedesc"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protodesc"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
 )
 
 func Test(t *testing.T) {

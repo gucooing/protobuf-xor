@@ -115,10 +115,10 @@
 package anypb
 
 import (
-	proto "github.com/gucooing/zzz/protobuf/proto"
-	protoreflect "github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	protoregistry "github.com/gucooing/zzz/protobuf/reflect/protoregistry"
-	protoimpl "github.com/gucooing/zzz/protobuf/runtime/protoimpl"
+	proto protobuf "github.com/gucooing/protobuf-xor/proto"
+	protoreflect protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protoregistry protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
+	protoimpl protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl"
 	reflect "reflect"
 	strings "strings"
 	sync "sync"

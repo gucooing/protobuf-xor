@@ -4,9 +4,7 @@
 
 package order
 
-import (
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-)
+import "github.com/gucooing/protobuf-xor/reflect/protoreflect"
 
 // FieldOrder specifies the ordering to visit message fields.
 // It is a function that reports whether x is ordered before y.

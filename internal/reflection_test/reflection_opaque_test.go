@@ -9,10 +9,10 @@ import (
 	"math"
 	"testing"
 
-	testpb "github.com/gucooing/zzz/protobuf/internal/testprotos/testeditions/testeditions_opaque"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/testing/prototest"
+	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_opaque"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/testing/prototest"
 )
 
 var enableLazy = proto.UnmarshalOptions{}

@@ -12,7 +12,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/gucooing/zzz/protobuf/internal/genid"
+	"github.com/gucooing/protobuf-xor/internal/genid"
 	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
 	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
 )

@@ -10,10 +10,10 @@
 package msetextpb_hybrid
 
 import (
-	messagesetpb_hybrid "github.com/gucooing/zzz/protobuf/internal/testprotos/messageset/messagesetpb/messagesetpb_hybrid"
-	protoreflect "github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	protoimpl "github.com/gucooing/zzz/protobuf/runtime/protoimpl"
-	_ "github.com/gucooing/zzz/protobuf/types/gofeaturespb"
+	messagesetpb_hybrid protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/messageset/messagesetpb/messagesetpb_hybrid"
+	protoreflect protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protoimpl protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl"
+	_ protobuf "github.com/gucooing/protobuf-xor/types/gofeaturespb"
 	reflect "reflect"
 )
 

@@ -5,12 +5,11 @@
 package irregular
 
 import (
-	"github.com/gucooing/zzz/protobuf/encoding/prototext"
-	"github.com/gucooing/zzz/protobuf/reflect/protodesc"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/runtime/protoiface"
-
-	"github.com/gucooing/zzz/protobuf/types/descriptorpb"
+	"github.com/gucooing/protobuf-xor/encoding/prototext"
+	"github.com/gucooing/protobuf-xor/reflect/protodesc"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/runtime/protoiface"
+	"github.com/gucooing/protobuf-xor/types/descriptorpb"
 )
 
 type IrregularMessage struct {
@@ -121,7 +120,7 @@ const descriptorText = `
     }
   }
   options {
-    go_package: "github.com/gucooing/zzz/protobuf/internal/testprotos/irregular"
+    go_package: protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/irregular"
   }
 `
 

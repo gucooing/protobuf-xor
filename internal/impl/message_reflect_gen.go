@@ -7,8 +7,8 @@
 package impl
 
 import (
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/runtime/protoiface"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/runtime/protoiface"
 )
 
 func (m *messageState) Descriptor() protoreflect.MessageDescriptor {

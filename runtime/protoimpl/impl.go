@@ -12,10 +12,10 @@
 package protoimpl
 
 import (
-	"github.com/gucooing/zzz/protobuf/internal/filedesc"
-	"github.com/gucooing/zzz/protobuf/internal/filetype"
-	"github.com/gucooing/zzz/protobuf/internal/impl"
-	"github.com/gucooing/zzz/protobuf/internal/protolazy"
+	"github.com/gucooing/protobuf-xor/internal/filedesc"
+	"github.com/gucooing/protobuf-xor/internal/filetype"
+	"github.com/gucooing/protobuf-xor/internal/impl"
+	"github.com/gucooing/protobuf-xor/internal/protolazy"
 )
 
 // UnsafeEnabled specifies whether package unsafe can be used.

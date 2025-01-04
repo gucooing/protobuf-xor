@@ -7,8 +7,8 @@ package impl
 import (
 	"sort"
 
-	"github.com/gucooing/zzz/protobuf/encoding/protowire"
-	"github.com/gucooing/zzz/protobuf/internal/encoding/messageset"
+	"github.com/gucooing/protobuf-xor/encoding/protowire"
+	"github.com/gucooing/protobuf-xor/internal/encoding/messageset"
 	"github.com/gucooing/zzz/protobuf/internal/errors"
 	"github.com/gucooing/zzz/protobuf/internal/flags"
 )

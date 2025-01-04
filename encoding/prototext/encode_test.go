@@ -12,18 +12,18 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/gucooing/zzz/protobuf/encoding/prototext"
-	"github.com/gucooing/zzz/protobuf/internal/detrand"
-	"github.com/gucooing/zzz/protobuf/internal/flags"
-	"github.com/gucooing/zzz/protobuf/internal/protobuild"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
-	"github.com/gucooing/zzz/protobuf/testing/protopack"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/prototext"
+	protobuf "github.com/gucooing/protobuf-xor/internal/detrand"
+	protobuf "github.com/gucooing/protobuf-xor/internal/flags"
+	protobuf "github.com/gucooing/protobuf-xor/internal/protobuild"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
+	protobuf "github.com/gucooing/protobuf-xor/testing/protopack"
 
-	pb2 "github.com/gucooing/zzz/protobuf/internal/testprotos/textpb2"
-	pb3 "github.com/gucooing/zzz/protobuf/internal/testprotos/textpb3"
-	pbeditions "github.com/gucooing/zzz/protobuf/internal/testprotos/textpbeditions"
-	"github.com/gucooing/zzz/protobuf/types/known/anypb"
+	pb2 protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/textpb2"
+	pb3 protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/textpb3"
+	pbeditions protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/textpbeditions"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/anypb"
 )
 
 func init() {

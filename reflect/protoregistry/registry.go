@@ -21,10 +21,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gucooing/zzz/protobuf/internal/encoding/messageset"
-	"github.com/gucooing/zzz/protobuf/internal/errors"
-	"github.com/gucooing/zzz/protobuf/internal/flags"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/internal/encoding/messageset"
+	protobuf "github.com/gucooing/protobuf-xor/internal/errors"
+	protobuf "github.com/gucooing/protobuf-xor/internal/flags"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
 )
 
 // conflictPolicy configures the policy for handling registration conflicts.
@@ -201,7 +201,7 @@ func (r *Files) checkGenProtoConflict(path string) {
 	}
 	pkgName := strings.TrimSuffix(strings.TrimPrefix(path, "google/protobuf/"), ".proto")
 	pkgName = strings.Replace(pkgName, "_", "", -1) + "pb" // e.g., "field_mask" => "fieldmaskpb"
-	currPath := "github.com/gucooing/zzz/protobuf/types/known/" + pkgName
+	currPath := protobuf "github.com/gucooing/protobuf-xor/types/known/" + pkgName
 	panic(fmt.Sprintf(""+
 		"duplicate registration of %q\n"+
 		"\n"+

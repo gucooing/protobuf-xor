@@ -11,14 +11,14 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gucooing/zzz/protobuf/encoding/prototext"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/testing/protopack"
-	"github.com/gucooing/zzz/protobuf/types/known/durationpb"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/prototext"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/testing/protopack"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/durationpb"
 
-	testpb "github.com/gucooing/zzz/protobuf/internal/testprotos/test"
-	test3pb "github.com/gucooing/zzz/protobuf/internal/testprotos/test3"
+	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test"
+	test3pb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test3"
 )
 
 func TestDecode(t *testing.T) {

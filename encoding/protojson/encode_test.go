@@ -11,22 +11,22 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/gucooing/zzz/protobuf/encoding/protojson"
-	"github.com/gucooing/zzz/protobuf/internal/detrand"
-	"github.com/gucooing/zzz/protobuf/internal/flags"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
-	"github.com/gucooing/zzz/protobuf/testing/protopack"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/protojson"
+	protobuf "github.com/gucooing/protobuf-xor/internal/detrand"
+	protobuf "github.com/gucooing/protobuf-xor/internal/flags"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
+	protobuf "github.com/gucooing/protobuf-xor/testing/protopack"
 
-	pb2 "github.com/gucooing/zzz/protobuf/internal/testprotos/textpb2"
-	pb3 "github.com/gucooing/zzz/protobuf/internal/testprotos/textpb3"
-	"github.com/gucooing/zzz/protobuf/types/known/anypb"
-	"github.com/gucooing/zzz/protobuf/types/known/durationpb"
-	"github.com/gucooing/zzz/protobuf/types/known/emptypb"
-	"github.com/gucooing/zzz/protobuf/types/known/fieldmaskpb"
-	"github.com/gucooing/zzz/protobuf/types/known/structpb"
-	"github.com/gucooing/zzz/protobuf/types/known/timestamppb"
-	"github.com/gucooing/zzz/protobuf/types/known/wrapperspb"
+	pb2 protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/textpb2"
+	pb3 protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/textpb3"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/anypb"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/durationpb"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/emptypb"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/fieldmaskpb"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/structpb"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/timestamppb"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/wrapperspb"
 )
 
 // Disable detrand to enable direct comparisons on outputs.

@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/gucooing/zzz/protobuf/encoding/protowire"
-	"github.com/gucooing/zzz/protobuf/internal/encoding/messageset"
-	"github.com/gucooing/zzz/protobuf/internal/order"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	piface "github.com/gucooing/zzz/protobuf/runtime/protoiface"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/protowire"
+	protobuf "github.com/gucooing/protobuf-xor/internal/encoding/messageset"
+	protobuf "github.com/gucooing/protobuf-xor/internal/order"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	piface protobuf "github.com/gucooing/protobuf-xor/runtime/protoiface"
 )
 
 func (mi *MessageInfo) makeOpaqueCoderMethods(t reflect.Type, si opaqueStructInfo) {

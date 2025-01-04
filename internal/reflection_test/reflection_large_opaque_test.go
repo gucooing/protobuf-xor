@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	testpb "github.com/gucooing/zzz/protobuf/internal/testprotos/testeditions/testeditions_opaque"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
+	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_opaque"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
 )
 
 func TestLargeOpaqueConcrete(t *testing.T) {

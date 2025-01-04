@@ -9,7 +9,7 @@ package protopath
 import (
 	"fmt"
 
-	"github.com/gucooing/zzz/protobuf/internal/msgfmt"
+	"github.com/gucooing/protobuf-xor/internal/msgfmt"
 	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
 )
 

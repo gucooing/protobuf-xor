@@ -12,8 +12,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/google/go-cmp/cmp"
-
-	"github.com/gucooing/zzz/protobuf/internal/encoding/text"
+	"github.com/gucooing/protobuf-xor/internal/encoding/text"
 	"github.com/gucooing/zzz/protobuf/internal/flags"
 )
 

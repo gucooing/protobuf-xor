@@ -5,19 +5,19 @@
 package proto_test
 
 import (
-	"github.com/gucooing/zzz/protobuf/encoding/protowire"
-	"github.com/gucooing/zzz/protobuf/internal/impl"
-	"github.com/gucooing/zzz/protobuf/internal/protobuild"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
-	"github.com/gucooing/zzz/protobuf/testing/protopack"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/protowire"
+	protobuf "github.com/gucooing/protobuf-xor/internal/impl"
+	protobuf "github.com/gucooing/protobuf-xor/internal/protobuild"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
+	protobuf "github.com/gucooing/protobuf-xor/testing/protopack"
 
-	legacypb "github.com/gucooing/zzz/protobuf/internal/testprotos/legacy"
-	requiredpb "github.com/gucooing/zzz/protobuf/internal/testprotos/required"
-	testpb "github.com/gucooing/zzz/protobuf/internal/testprotos/test"
-	test3pb "github.com/gucooing/zzz/protobuf/internal/testprotos/test3"
-	testeditionspb "github.com/gucooing/zzz/protobuf/internal/testprotos/testeditions"
+	legacypb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/legacy"
+	requiredpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/required"
+	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test"
+	test3pb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test3"
+	testeditionspb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions"
 )
 
 type testProto struct {

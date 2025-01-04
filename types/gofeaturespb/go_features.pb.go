@@ -11,9 +11,9 @@
 package gofeaturespb
 
 import (
-	protoreflect "github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	protoimpl "github.com/gucooing/zzz/protobuf/runtime/protoimpl"
-	descriptorpb "github.com/gucooing/zzz/protobuf/types/descriptorpb"
+	protoreflect protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protoimpl protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl"
+	descriptorpb protobuf "github.com/gucooing/protobuf-xor/types/descriptorpb"
 	reflect "reflect"
 	sync "sync"
 )

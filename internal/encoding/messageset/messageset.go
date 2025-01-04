@@ -6,11 +6,11 @@
 package messageset
 
 import (
+	"errors"
 	"math"
 
-	"github.com/gucooing/zzz/protobuf/encoding/protowire"
-	"github.com/gucooing/zzz/protobuf/internal/errors"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/encoding/protowire"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
 )
 
 // The MessageSet wire format is equivalent to a message defined as follows,

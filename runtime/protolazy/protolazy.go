@@ -12,9 +12,7 @@
 //     lazy decoding for this Unmarshal operation only.
 package protolazy
 
-import (
-	"github.com/gucooing/zzz/protobuf/internal/impl"
-)
+import "github.com/gucooing/protobuf-xor/internal/impl"
 
 // Disable disables lazy unmarshaling of opaque messages.
 //

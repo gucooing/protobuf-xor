@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/gucooing/zzz/protobuf/encoding/protowire"
-	piface "github.com/gucooing/zzz/protobuf/runtime/protoiface"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/protowire"
+	piface protobuf "github.com/gucooing/protobuf-xor/runtime/protoiface"
 )
 
 // IndexEntry is the structure for an index of the fields in a message of a

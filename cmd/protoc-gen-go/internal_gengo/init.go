@@ -8,9 +8,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/gucooing/zzz/protobuf/compiler/protogen"
-	"github.com/gucooing/zzz/protobuf/encoding/protowire"
-
+	"github.com/gucooing/protobuf-xor/compiler/protogen"
+	"github.com/gucooing/protobuf-xor/encoding/protowire"
 	"github.com/gucooing/zzz/protobuf/types/descriptorpb"
 )
 

@@ -9,10 +9,10 @@ import (
 	"reflect"
 	"testing"
 
-	testopenpb "github.com/gucooing/zzz/protobuf/internal/testprotos/testeditions"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/runtime/protoiface"
-	"github.com/gucooing/zzz/protobuf/testing/prototest"
+	testopenpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/runtime/protoiface"
+	protobuf "github.com/gucooing/protobuf-xor/testing/prototest"
 )
 
 func Test(t *testing.T) {

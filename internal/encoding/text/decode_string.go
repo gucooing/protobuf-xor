@@ -12,7 +12,7 @@ import (
 	"unicode/utf16"
 	"unicode/utf8"
 
-	"github.com/gucooing/zzz/protobuf/internal/strs"
+	"github.com/gucooing/protobuf-xor/internal/strs"
 )
 
 // parseStringValue parses string field token.

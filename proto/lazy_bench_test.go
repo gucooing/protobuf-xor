@@ -7,9 +7,9 @@ package proto_test
 import (
 	"testing"
 
-	"github.com/gucooing/zzz/protobuf/proto"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
 
-	lazyopaquepb "github.com/gucooing/zzz/protobuf/internal/testprotos/lazy/lazy_opaque"
+	lazyopaquepb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/lazy/lazy_opaque"
 )
 
 // testMessageLinked returns a test message with a few fields of various

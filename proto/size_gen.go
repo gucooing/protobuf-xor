@@ -7,8 +7,8 @@
 package proto
 
 import (
-	"github.com/gucooing/zzz/protobuf/encoding/protowire"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/protowire"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
 )
 
 func (o MarshalOptions) sizeSingular(num protowire.Number, kind protoreflect.Kind, v protoreflect.Value) int {

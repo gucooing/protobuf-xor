@@ -7,14 +7,14 @@ package impl
 import (
 	"reflect"
 
-	"github.com/gucooing/zzz/protobuf/internal/descopts"
-	"github.com/gucooing/zzz/protobuf/internal/encoding/messageset"
-	ptag "github.com/gucooing/zzz/protobuf/internal/encoding/tag"
-	"github.com/gucooing/zzz/protobuf/internal/filedesc"
-	"github.com/gucooing/zzz/protobuf/internal/pragma"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
-	"github.com/gucooing/zzz/protobuf/runtime/protoiface"
+	protobuf "github.com/gucooing/protobuf-xor/internal/descopts"
+	protobuf "github.com/gucooing/protobuf-xor/internal/encoding/messageset"
+	ptag protobuf "github.com/gucooing/protobuf-xor/internal/encoding/tag"
+	protobuf "github.com/gucooing/protobuf-xor/internal/filedesc"
+	protobuf "github.com/gucooing/protobuf-xor/internal/pragma"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
+	protobuf "github.com/gucooing/protobuf-xor/runtime/protoiface"
 )
 
 func (xi *ExtensionInfo) initToLegacy() {

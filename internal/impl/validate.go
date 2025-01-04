@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"unicode/utf8"
 
+	"github.com/gucooing/protobuf-xor/internal/encoding/messageset"
 	"github.com/gucooing/zzz/protobuf/encoding/protowire"
-	"github.com/gucooing/zzz/protobuf/internal/encoding/messageset"
 	"github.com/gucooing/zzz/protobuf/internal/flags"
 	"github.com/gucooing/zzz/protobuf/internal/genid"
 	"github.com/gucooing/zzz/protobuf/internal/strs"

@@ -7,8 +7,8 @@ package impl_test
 import (
 	"testing"
 
-	mixedpb "github.com/gucooing/zzz/protobuf/internal/testprotos/mixed"
-	"github.com/gucooing/zzz/protobuf/proto"
+	mixedpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/mixed"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
 )
 
 var enableLazy = proto.UnmarshalOptions{}

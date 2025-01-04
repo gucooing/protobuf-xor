@@ -7,10 +7,10 @@
 package nameclash
 
 import (
-	_ "github.com/gucooing/zzz/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid"
-	_ "github.com/gucooing/zzz/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid3"
-	_ "github.com/gucooing/zzz/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque"
-	_ "github.com/gucooing/zzz/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque3"
-	_ "github.com/gucooing/zzz/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open"
-	_ "github.com/gucooing/zzz/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open3"
+	_ protobuf "github.com/gucooing/protobuf-xor/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid"
+	_ protobuf "github.com/gucooing/protobuf-xor/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid3"
+	_ protobuf "github.com/gucooing/protobuf-xor/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque"
+	_ protobuf "github.com/gucooing/protobuf-xor/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque3"
+	_ protobuf "github.com/gucooing/protobuf-xor/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open"
+	_ protobuf "github.com/gucooing/protobuf-xor/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open3"
 )

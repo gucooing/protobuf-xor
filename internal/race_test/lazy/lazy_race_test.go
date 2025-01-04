@@ -25,10 +25,10 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/gucooing/zzz/protobuf/internal/test/race"
-	mixedpb "github.com/gucooing/zzz/protobuf/internal/testprotos/mixed"
-	testopaquepb "github.com/gucooing/zzz/protobuf/internal/testprotos/testeditions/testeditions_opaque"
-	"github.com/gucooing/zzz/protobuf/proto"
+	protobuf "github.com/gucooing/protobuf-xor/internal/test/race"
+	mixedpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/mixed"
+	testopaquepb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_opaque"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
 )
 
 // To get some output from the subprocess, set this to true

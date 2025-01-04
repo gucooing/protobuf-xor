@@ -11,7 +11,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/gucooing/zzz/protobuf/internal/detrand"
+	"github.com/gucooing/protobuf-xor/internal/detrand"
 	"github.com/gucooing/zzz/protobuf/internal/errors"
 )
 

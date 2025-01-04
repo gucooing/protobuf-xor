@@ -9,11 +9,11 @@ package filetype
 import (
 	"reflect"
 
-	"github.com/gucooing/zzz/protobuf/internal/descopts"
-	"github.com/gucooing/zzz/protobuf/internal/filedesc"
-	pimpl "github.com/gucooing/zzz/protobuf/internal/impl"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
+	protobuf "github.com/gucooing/protobuf-xor/internal/descopts"
+	protobuf "github.com/gucooing/protobuf-xor/internal/filedesc"
+	pimpl protobuf "github.com/gucooing/protobuf-xor/internal/impl"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
 )
 
 // Builder constructs type descriptors from a raw file descriptor

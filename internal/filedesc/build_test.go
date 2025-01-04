@@ -10,13 +10,13 @@ import (
 	"io"
 	"testing"
 
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protodesc"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protodesc"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
 
-	testpb "github.com/gucooing/zzz/protobuf/internal/testprotos/test"
-	_ "github.com/gucooing/zzz/protobuf/internal/testprotos/test/weak1"
-	"github.com/gucooing/zzz/protobuf/types/descriptorpb"
+	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test"
+	_ protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test/weak1"
+	protobuf "github.com/gucooing/protobuf-xor/types/descriptorpb"
 )
 
 var testFile = new(testpb.TestAllTypes).ProtoReflect().Descriptor().ParentFile()

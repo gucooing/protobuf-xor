@@ -8,11 +8,11 @@
 package test
 
 import (
-	enums "github.com/gucooing/zzz/protobuf/internal/testprotos/enums"
-	required "github.com/gucooing/zzz/protobuf/internal/testprotos/required"
-	proto "github.com/gucooing/zzz/protobuf/proto"
-	protoreflect "github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	protoimpl "github.com/gucooing/zzz/protobuf/runtime/protoimpl"
+	enums protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/enums"
+	required protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/required"
+	proto protobuf "github.com/gucooing/protobuf-xor/proto"
+	protoreflect protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protoimpl protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

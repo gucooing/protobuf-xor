@@ -13,17 +13,17 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/gucooing/zzz/protobuf/encoding/prototext"
-	pimpl "github.com/gucooing/zzz/protobuf/internal/impl"
-	"github.com/gucooing/zzz/protobuf/internal/pragma"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protodesc"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
-	"github.com/gucooing/zzz/protobuf/runtime/protoiface"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/prototext"
+	pimpl protobuf "github.com/gucooing/protobuf-xor/internal/impl"
+	protobuf "github.com/gucooing/protobuf-xor/internal/pragma"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protodesc"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
+	protobuf "github.com/gucooing/protobuf-xor/runtime/protoiface"
 
-	proto2_20180125 "github.com/gucooing/zzz/protobuf/internal/testprotos/legacy/proto2_20180125_92554152"
-	"github.com/gucooing/zzz/protobuf/types/descriptorpb"
+	proto2_20180125 protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/legacy/proto2_20180125_92554152"
+	protobuf "github.com/gucooing/protobuf-xor/types/descriptorpb"
 )
 
 type LegacyTestMessage struct {

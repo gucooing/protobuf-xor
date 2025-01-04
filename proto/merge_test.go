@@ -12,17 +12,17 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/gucooing/zzz/protobuf/encoding/prototext"
-	"github.com/gucooing/zzz/protobuf/internal/protobuild"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/testing/protocmp"
-	"github.com/gucooing/zzz/protobuf/testing/protopack"
-	"github.com/gucooing/zzz/protobuf/types/dynamicpb"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/prototext"
+	protobuf "github.com/gucooing/protobuf-xor/internal/protobuild"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/testing/protocmp"
+	protobuf "github.com/gucooing/protobuf-xor/testing/protopack"
+	protobuf "github.com/gucooing/protobuf-xor/types/dynamicpb"
 
-	legacypb "github.com/gucooing/zzz/protobuf/internal/testprotos/legacy"
-	testpb "github.com/gucooing/zzz/protobuf/internal/testprotos/test"
-	test3pb "github.com/gucooing/zzz/protobuf/internal/testprotos/test3"
+	legacypb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/legacy"
+	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test"
+	test3pb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test3"
 )
 
 type testMerge struct {

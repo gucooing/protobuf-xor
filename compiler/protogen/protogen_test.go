@@ -10,13 +10,11 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/testing/protocmp"
+	"github.com/gucooing/protobuf-xor/types/descriptorpb"
 	"github.com/gucooing/zzz/protobuf/internal/genid"
 	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/testing/protocmp"
-
-	"github.com/gucooing/zzz/protobuf/types/descriptorpb"
 	"github.com/gucooing/zzz/protobuf/types/pluginpb"
 )
 

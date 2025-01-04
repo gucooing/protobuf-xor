@@ -7,8 +7,8 @@ package opaque_default_test
 import (
 	"testing"
 
-	enumopaquepb "github.com/gucooing/zzz/protobuf/internal/testprotos/enums/enums_opaque"
-	testopaquepb "github.com/gucooing/zzz/protobuf/internal/testprotos/testeditions/testeditions_opaque"
+	enumopaquepb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/enums/enums_opaque"
+	testopaquepb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_opaque"
 )
 
 // From the spec: "Proto2 enums use the first syntactic entry in the enum

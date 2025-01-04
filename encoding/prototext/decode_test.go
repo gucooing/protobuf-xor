@@ -10,18 +10,18 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gucooing/zzz/protobuf/encoding/prototext"
-	"github.com/gucooing/zzz/protobuf/internal/flags"
-	"github.com/gucooing/zzz/protobuf/internal/protobuild"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/prototext"
+	protobuf "github.com/gucooing/protobuf-xor/internal/flags"
+	protobuf "github.com/gucooing/protobuf-xor/internal/protobuild"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
 
-	testpb "github.com/gucooing/zzz/protobuf/internal/testprotos/test"
-	weakpb "github.com/gucooing/zzz/protobuf/internal/testprotos/test/weak1"
-	pb2 "github.com/gucooing/zzz/protobuf/internal/testprotos/textpb2"
-	pb3 "github.com/gucooing/zzz/protobuf/internal/testprotos/textpb3"
-	pbeditions "github.com/gucooing/zzz/protobuf/internal/testprotos/textpbeditions"
-	"github.com/gucooing/zzz/protobuf/types/known/anypb"
+	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test"
+	weakpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test/weak1"
+	pb2 protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/textpb2"
+	pb3 protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/textpb3"
+	pbeditions protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/textpbeditions"
+	protobuf "github.com/gucooing/protobuf-xor/types/known/anypb"
 )
 
 func TestUnmarshal(t *testing.T) {

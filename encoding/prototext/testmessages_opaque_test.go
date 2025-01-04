@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
 
-	_ "github.com/gucooing/zzz/protobuf/internal/testprotos/textpbeditions"
-	_ "github.com/gucooing/zzz/protobuf/internal/testprotos/textpbeditions/textpbeditions_opaque"
+	_ protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/textpbeditions"
+	_ protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/textpbeditions/textpbeditions_opaque"
 )
 
 var relatedMessages = func() map[protoreflect.MessageType][]protoreflect.MessageType {

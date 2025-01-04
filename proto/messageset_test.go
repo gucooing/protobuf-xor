@@ -5,16 +5,16 @@
 package proto_test
 
 import (
-	"github.com/gucooing/zzz/protobuf/encoding/protowire"
-	"github.com/gucooing/zzz/protobuf/internal/flags"
-	"github.com/gucooing/zzz/protobuf/internal/protobuild"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/testing/protopack"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/protowire"
+	protobuf "github.com/gucooing/protobuf-xor/internal/flags"
+	protobuf "github.com/gucooing/protobuf-xor/internal/protobuild"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/testing/protopack"
 
-	"github.com/gucooing/zzz/protobuf/internal/testprotos/messageset/messagesetpb"
-	_ "github.com/gucooing/zzz/protobuf/internal/testprotos/messageset/messagesetpb/messagesetpb_opaque"
-	_ "github.com/gucooing/zzz/protobuf/internal/testprotos/messageset/msetextpb"
-	_ "github.com/gucooing/zzz/protobuf/internal/testprotos/messageset/msetextpb/msetextpb_opaque"
+	protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/messageset/messagesetpb"
+	_ protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/messageset/messagesetpb/messagesetpb_opaque"
+	_ protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/messageset/msetextpb"
+	_ protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/messageset/msetextpb/msetextpb_opaque"
 )
 
 func init() {

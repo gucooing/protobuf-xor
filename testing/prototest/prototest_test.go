@@ -8,19 +8,19 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gucooing/zzz/protobuf/internal/flags"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/runtime/protoimpl"
-	"github.com/gucooing/zzz/protobuf/testing/prototest"
+	protobuf "github.com/gucooing/protobuf-xor/internal/flags"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl"
+	protobuf "github.com/gucooing/protobuf-xor/testing/prototest"
 
-	irregularpb "github.com/gucooing/zzz/protobuf/internal/testprotos/irregular"
-	legacypb "github.com/gucooing/zzz/protobuf/internal/testprotos/legacy"
-	legacy1pb "github.com/gucooing/zzz/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb "github.com/gucooing/zzz/protobuf/internal/testprotos/test"
-	_ "github.com/gucooing/zzz/protobuf/internal/testprotos/test/weak1"
-	_ "github.com/gucooing/zzz/protobuf/internal/testprotos/test/weak2"
-	test3pb "github.com/gucooing/zzz/protobuf/internal/testprotos/test3"
-	testeditionspb "github.com/gucooing/zzz/protobuf/internal/testprotos/testeditions"
+	irregularpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/irregular"
+	legacypb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/legacy"
+	legacy1pb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test"
+	_ protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test/weak1"
+	_ protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test/weak2"
+	test3pb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test3"
+	testeditionspb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions"
 )
 
 func Test(t *testing.T) {

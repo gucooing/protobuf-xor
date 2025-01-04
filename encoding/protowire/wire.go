@@ -10,11 +10,10 @@
 package protowire
 
 import (
+	"errors"
 	"io"
 	"math"
 	"math/bits"
-
-	"github.com/gucooing/zzz/protobuf/internal/errors"
 )
 
 // Number represents the field number.

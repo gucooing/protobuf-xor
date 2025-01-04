@@ -7,13 +7,13 @@ package proto_test
 import (
 	"testing"
 
-	test3openpb "github.com/gucooing/zzz/protobuf/internal/testprotos/test3"
-	test3hybridpb "github.com/gucooing/zzz/protobuf/internal/testprotos/test3/test3_hybrid"
-	test3opaquepb "github.com/gucooing/zzz/protobuf/internal/testprotos/test3/test3_opaque"
-	testhybridpb "github.com/gucooing/zzz/protobuf/internal/testprotos/testeditions/testeditions_hybrid"
-	testopaquepb "github.com/gucooing/zzz/protobuf/internal/testprotos/testeditions/testeditions_opaque"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
+	test3openpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test3"
+	test3hybridpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test3/test3_hybrid"
+	test3opaquepb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test3/test3_opaque"
+	testhybridpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_hybrid"
+	testopaquepb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_opaque"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
 )
 
 func TestOpenWhich(t *testing.T) {

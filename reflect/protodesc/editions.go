@@ -9,12 +9,12 @@ import (
 	"os"
 	"sync"
 
-	"github.com/gucooing/zzz/protobuf/internal/editiondefaults"
-	"github.com/gucooing/zzz/protobuf/internal/filedesc"
-	"github.com/gucooing/zzz/protobuf/proto"
+	"github.com/gucooing/protobuf-xor/internal/editiondefaults"
+	"github.com/gucooing/protobuf-xor/internal/filedesc"
+	"github.com/gucooing/protobuf-xor/proto"
+	"github.com/gucooing/protobuf-xor/types/descriptorpb"
+	"github.com/gucooing/protobuf-xor/types/gofeaturespb"
 	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/types/descriptorpb"
-	"github.com/gucooing/zzz/protobuf/types/gofeaturespb"
 )
 
 var defaults = &descriptorpb.FeatureSetDefaults{}

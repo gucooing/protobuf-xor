@@ -5,12 +5,11 @@
 package protodesc
 
 import (
-	"github.com/gucooing/zzz/protobuf/internal/encoding/defval"
-	"github.com/gucooing/zzz/protobuf/internal/errors"
-	"github.com/gucooing/zzz/protobuf/internal/filedesc"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
+	"github.com/gucooing/protobuf-xor/internal/encoding/defval"
+	"github.com/gucooing/protobuf-xor/internal/errors"
+	"github.com/gucooing/protobuf-xor/internal/filedesc"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
 	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
-
 	"github.com/gucooing/zzz/protobuf/types/descriptorpb"
 )
 

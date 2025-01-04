@@ -7,8 +7,8 @@ package proto_test
 import (
 	"testing"
 
-	testhybridpb "github.com/gucooing/zzz/protobuf/internal/testprotos/testeditions/testeditions_hybrid"
-	testopaquepb "github.com/gucooing/zzz/protobuf/internal/testprotos/testeditions/testeditions_opaque"
+	testhybridpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_hybrid"
+	testopaquepb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_opaque"
 )
 
 func TestOpenSetNilReceiver(t *testing.T) {

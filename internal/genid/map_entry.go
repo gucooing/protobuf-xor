@@ -4,7 +4,7 @@
 
 package genid
 
-import "github.com/gucooing/zzz/protobuf/reflect/protoreflect"
+import protoreflect "github.com/gucooing/zzz/protobuf/reflect/protoreflect"
 
 // Generic field names and numbers for synthetic map entry messages.
 const (

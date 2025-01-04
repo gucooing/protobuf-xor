@@ -5,15 +5,14 @@
 package json_test
 
 import (
+	"encoding/json"
 	"math"
 	"strings"
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-
-	"github.com/gucooing/zzz/protobuf/internal/detrand"
-	"github.com/gucooing/zzz/protobuf/internal/encoding/json"
+	"github.com/gucooing/protobuf-xor/internal/detrand"
 )
 
 // Disable detrand to enable direct comparisons on outputs.

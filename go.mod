@@ -1,4 +1,4 @@
-module github.com/gucooing/zzz/protobuf
+module github.com/gucooing/protobuf-xor
 
 go 1.21
 

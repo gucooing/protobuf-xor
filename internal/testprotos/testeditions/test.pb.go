@@ -8,9 +8,9 @@
 package testeditions
 
 import (
-	enums "github.com/gucooing/zzz/protobuf/internal/testprotos/enums"
-	protoreflect "github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	protoimpl "github.com/gucooing/zzz/protobuf/runtime/protoimpl"
+	enums protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/enums"
+	protoreflect protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protoimpl protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

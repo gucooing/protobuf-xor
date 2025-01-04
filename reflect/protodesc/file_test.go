@@ -9,13 +9,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gucooing/zzz/protobuf/encoding/prototext"
-	"github.com/gucooing/zzz/protobuf/internal/flags"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
-
+	"github.com/gucooing/protobuf-xor/encoding/prototext"
+	"github.com/gucooing/protobuf-xor/proto"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
 	"github.com/gucooing/zzz/protobuf/internal/filedesc"
+	"github.com/gucooing/zzz/protobuf/internal/flags"
+	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
 	"github.com/gucooing/zzz/protobuf/types/descriptorpb"
 )
 

@@ -11,10 +11,9 @@ import (
 	"unicode"
 	"unicode/utf8"
 
+	"github.com/gucooing/protobuf-xor/internal/genid"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
 	"github.com/gucooing/zzz/protobuf/compiler/protogen"
-	"github.com/gucooing/zzz/protobuf/internal/genid"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-
 	"github.com/gucooing/zzz/protobuf/types/descriptorpb"
 )
 

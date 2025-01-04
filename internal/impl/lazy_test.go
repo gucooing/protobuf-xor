@@ -11,16 +11,16 @@ import (
 	"unsafe"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/gucooing/zzz/protobuf/internal/errors"
-	"github.com/gucooing/zzz/protobuf/internal/flags"
-	"github.com/gucooing/zzz/protobuf/internal/impl"
-	"github.com/gucooing/zzz/protobuf/internal/protobuild"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/testing/protocmp"
+	protobuf "github.com/gucooing/protobuf-xor/internal/errors"
+	protobuf "github.com/gucooing/protobuf-xor/internal/flags"
+	protobuf "github.com/gucooing/protobuf-xor/internal/impl"
+	protobuf "github.com/gucooing/protobuf-xor/internal/protobuild"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/testing/protocmp"
 
-	lazytestpb "github.com/gucooing/zzz/protobuf/internal/testprotos/lazy"
-	"github.com/gucooing/zzz/protobuf/internal/testprotos/messageset/messagesetpb"
-	testpb "github.com/gucooing/zzz/protobuf/internal/testprotos/test"
+	lazytestpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/lazy"
+	protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/messageset/messagesetpb"
+	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test"
 )
 
 func TestLazyExtensions(t *testing.T) {

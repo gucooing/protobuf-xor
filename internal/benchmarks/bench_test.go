@@ -14,18 +14,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gucooing/zzz/protobuf/encoding/protojson"
-	"github.com/gucooing/zzz/protobuf/encoding/prototext"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/protojson"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/prototext"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
 
-	benchpb "github.com/gucooing/zzz/protobuf/internal/testprotos/benchmarks"
-	_ "github.com/gucooing/zzz/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto2"
-	_ "github.com/gucooing/zzz/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto3"
-	_ "github.com/gucooing/zzz/protobuf/internal/testprotos/benchmarks/datasets/google_message2"
-	_ "github.com/gucooing/zzz/protobuf/internal/testprotos/benchmarks/datasets/google_message3"
-	_ "github.com/gucooing/zzz/protobuf/internal/testprotos/benchmarks/datasets/google_message4"
+	benchpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/benchmarks"
+	_ protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/benchmarks/datasets/google_message1/proto2"
+	_ protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/benchmarks/datasets/google_message1/proto3"
+	_ protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/benchmarks/datasets/google_message2"
+	_ protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/benchmarks/datasets/google_message3"
+	_ protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/benchmarks/datasets/google_message4"
 )
 
 func BenchmarkWire(b *testing.B) {

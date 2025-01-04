@@ -7,7 +7,7 @@
 package genid
 
 import (
-	protoreflect "github.com/gucooing/zzz/protobuf/reflect/protoreflect"
+	protoreflect protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
 )
 
 const File_google_protobuf_struct_proto = "google/protobuf/struct.proto"

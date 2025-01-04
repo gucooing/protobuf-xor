@@ -8,10 +8,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/gucooing/zzz/protobuf/proto"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
 
-	epb "github.com/gucooing/zzz/protobuf/internal/testprotos/race/extender"
-	mpb "github.com/gucooing/zzz/protobuf/internal/testprotos/race/message"
+	epb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/race/extender"
+	mpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/race/message"
 )
 
 // There must be no other test in this package as we are testing global

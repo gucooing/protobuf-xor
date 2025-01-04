@@ -7,9 +7,9 @@ package filedesc
 import (
 	"fmt"
 
+	"github.com/gucooing/protobuf-xor/internal/editiondefaults"
+	"github.com/gucooing/protobuf-xor/internal/genid"
 	"github.com/gucooing/zzz/protobuf/encoding/protowire"
-	"github.com/gucooing/zzz/protobuf/internal/editiondefaults"
-	"github.com/gucooing/zzz/protobuf/internal/genid"
 	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
 )
 

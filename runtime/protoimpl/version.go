@@ -4,9 +4,7 @@
 
 package protoimpl
 
-import (
-	"github.com/gucooing/zzz/protobuf/internal/version"
-)
+import "github.com/gucooing/protobuf-xor/internal/version"
 
 const (
 	// MaxVersion is the maximum supported version for generated .pb.go files.

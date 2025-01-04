@@ -6,6 +6,6 @@
 // and the well-known types.
 package genid
 
-import "github.com/gucooing/zzz/protobuf/reflect/protoreflect"
+import protoreflect "github.com/gucooing/zzz/protobuf/reflect/protoreflect"
 
 const GoogleProtobuf_package protoreflect.FullName = "google.protobuf"

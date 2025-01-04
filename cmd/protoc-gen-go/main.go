@@ -16,9 +16,9 @@ import (
 	"os"
 	"path/filepath"
 
-	gengo "github.com/gucooing/zzz/protobuf/cmd/protoc-gen-go/internal_gengo"
-	"github.com/gucooing/zzz/protobuf/compiler/protogen"
-	"github.com/gucooing/zzz/protobuf/internal/version"
+	gengo protobuf "github.com/gucooing/protobuf-xor/cmd/protoc-gen-go/internal_gengo"
+	protobuf "github.com/gucooing/protobuf-xor/compiler/protogen"
+	protobuf "github.com/gucooing/protobuf-xor/internal/version"
 )
 
 const genGoDocURL = "https://protobuf.dev/reference/go/go-generated"

@@ -8,10 +8,10 @@
 package testeditions_opaque
 
 import (
-	enums_opaque "github.com/gucooing/zzz/protobuf/internal/testprotos/enums/enums_opaque"
-	protoreflect "github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	protoimpl "github.com/gucooing/zzz/protobuf/runtime/protoimpl"
-	_ "github.com/gucooing/zzz/protobuf/types/gofeaturespb"
+	enums_opaque protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/enums/enums_opaque"
+	protoreflect protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protoimpl protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl"
+	_ protobuf "github.com/gucooing/protobuf-xor/types/gofeaturespb"
 	reflect "reflect"
 )
 

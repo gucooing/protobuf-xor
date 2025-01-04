@@ -11,10 +11,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/testing/protocmp"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protobuf "github.com/gucooing/protobuf-xor/testing/protocmp"
 
-	spb "github.com/gucooing/zzz/protobuf/types/known/structpb"
+	spb protobuf "github.com/gucooing/protobuf-xor/types/known/structpb"
 )
 
 var equateJSON = cmpopts.AcyclicTransformer("UnmarshalJSON", func(in []byte) (out any) {

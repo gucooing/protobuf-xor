@@ -12,12 +12,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-
-	"github.com/gucooing/zzz/protobuf/encoding/prototext"
-	"github.com/gucooing/zzz/protobuf/reflect/protodesc"
+	"github.com/gucooing/protobuf-xor/encoding/prototext"
+	"github.com/gucooing/protobuf-xor/reflect/protodesc"
+	"github.com/gucooing/protobuf-xor/types/descriptorpb"
 	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-
-	"github.com/gucooing/zzz/protobuf/types/descriptorpb"
 )
 
 var msgDesc = func() protoreflect.MessageDescriptor {

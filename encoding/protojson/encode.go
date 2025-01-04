@@ -6,18 +6,18 @@ package protojson
 
 import (
 	"encoding/base64"
+	"encoding/json"
 	"fmt"
 
-	"github.com/gucooing/zzz/protobuf/internal/encoding/json"
+	"github.com/gucooing/protobuf-xor/internal/errors"
+	"github.com/gucooing/protobuf-xor/internal/filedesc"
+	"github.com/gucooing/protobuf-xor/internal/order"
+	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
 	"github.com/gucooing/zzz/protobuf/internal/encoding/messageset"
-	"github.com/gucooing/zzz/protobuf/internal/errors"
-	"github.com/gucooing/zzz/protobuf/internal/filedesc"
 	"github.com/gucooing/zzz/protobuf/internal/flags"
 	"github.com/gucooing/zzz/protobuf/internal/genid"
-	"github.com/gucooing/zzz/protobuf/internal/order"
 	"github.com/gucooing/zzz/protobuf/internal/pragma"
 	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
 	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
 )
 

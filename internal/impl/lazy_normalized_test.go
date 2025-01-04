@@ -7,10 +7,10 @@ package impl_test
 import (
 	"testing"
 
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/testing/protopack"
+	protobuf "github.com/gucooing/protobuf-xor/proto"
+	protobuf "github.com/gucooing/protobuf-xor/testing/protopack"
 
-	lazytestpb "github.com/gucooing/zzz/protobuf/internal/testprotos/lazy"
+	lazytestpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/lazy"
 )
 
 // Constructs a message encoded in denormalized (non-minimal) wire format, but

@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gucooing/zzz/protobuf/internal/impl"
-	piface "github.com/gucooing/zzz/protobuf/runtime/protoiface"
+	protobuf "github.com/gucooing/protobuf-xor/internal/impl"
+	piface protobuf "github.com/gucooing/protobuf-xor/runtime/protoiface"
 )
 
 // TestValidate tests the internal message validator.

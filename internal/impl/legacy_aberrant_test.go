@@ -11,15 +11,13 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-
+	"github.com/gucooing/protobuf-xor/internal/impl"
+	"github.com/gucooing/protobuf-xor/reflect/protodesc"
+	"github.com/gucooing/protobuf-xor/types/descriptorpb"
 	"github.com/gucooing/zzz/protobuf/encoding/prototext"
-	"github.com/gucooing/zzz/protobuf/internal/impl"
-	"github.com/gucooing/zzz/protobuf/reflect/protodesc"
 	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
 	"github.com/gucooing/zzz/protobuf/runtime/protoiface"
 	"github.com/gucooing/zzz/protobuf/testing/protocmp"
-
-	"github.com/gucooing/zzz/protobuf/types/descriptorpb"
 )
 
 type AberrantMessage struct {

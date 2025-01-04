@@ -17,14 +17,14 @@
 package editions
 
 import (
-	protoreflect "github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	protoimpl "github.com/gucooing/zzz/protobuf/runtime/protoimpl"
-	anypb "github.com/gucooing/zzz/protobuf/types/known/anypb"
-	durationpb "github.com/gucooing/zzz/protobuf/types/known/durationpb"
-	fieldmaskpb "github.com/gucooing/zzz/protobuf/types/known/fieldmaskpb"
-	structpb "github.com/gucooing/zzz/protobuf/types/known/structpb"
-	timestamppb "github.com/gucooing/zzz/protobuf/types/known/timestamppb"
-	wrapperspb "github.com/gucooing/zzz/protobuf/types/known/wrapperspb"
+	protoreflect protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	protoimpl protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl"
+	anypb protobuf "github.com/gucooing/protobuf-xor/types/known/anypb"
+	durationpb protobuf "github.com/gucooing/protobuf-xor/types/known/durationpb"
+	fieldmaskpb protobuf "github.com/gucooing/protobuf-xor/types/known/fieldmaskpb"
+	structpb protobuf "github.com/gucooing/protobuf-xor/types/known/structpb"
+	timestamppb protobuf "github.com/gucooing/protobuf-xor/types/known/timestamppb"
+	wrapperspb protobuf "github.com/gucooing/protobuf-xor/types/known/wrapperspb"
 	reflect "reflect"
 	sync "sync"
 )

@@ -12,12 +12,12 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"github.com/gucooing/zzz/protobuf/encoding/protowire"
-	"github.com/gucooing/zzz/protobuf/internal/errors"
-	"github.com/gucooing/zzz/protobuf/internal/protolazy"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
-	preg "github.com/gucooing/zzz/protobuf/reflect/protoregistry"
-	piface "github.com/gucooing/zzz/protobuf/runtime/protoiface"
+	protobuf "github.com/gucooing/protobuf-xor/encoding/protowire"
+	protobuf "github.com/gucooing/protobuf-xor/internal/errors"
+	protobuf "github.com/gucooing/protobuf-xor/internal/protolazy"
+	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	preg protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
+	piface protobuf "github.com/gucooing/protobuf-xor/runtime/protoiface"
 )
 
 var enableLazy int32 = func() int32 {

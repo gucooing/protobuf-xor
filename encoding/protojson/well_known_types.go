@@ -12,11 +12,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/gucooing/protobuf-xor/internal/genid"
+	"github.com/gucooing/protobuf-xor/internal/strs"
+	"github.com/gucooing/protobuf-xor/proto"
 	"github.com/gucooing/zzz/protobuf/internal/encoding/json"
 	"github.com/gucooing/zzz/protobuf/internal/errors"
-	"github.com/gucooing/zzz/protobuf/internal/genid"
-	"github.com/gucooing/zzz/protobuf/internal/strs"
-	"github.com/gucooing/zzz/protobuf/proto"
 	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
 )
 
