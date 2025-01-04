@@ -8,11 +8,11 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/gucooing/protobuf-xor/internal/filedesc"
-	"github.com/gucooing/protobuf-xor/testing/protocmp"
-	"github.com/gucooing/protobuf-xor/types/descriptorpb"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
+	"google.golang.org/protobuf/internal/filedesc"
+	"google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/reflect/protoreflect"
+	"google.golang.org/protobuf/testing/protocmp"
+	"google.golang.org/protobuf/types/descriptorpb"
 )
 
 func TestEditionsRequired(t *testing.T) {

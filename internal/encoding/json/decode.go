@@ -11,7 +11,7 @@ import (
 	"regexp"
 	"unicode/utf8"
 
-	"github.com/gucooing/zzz/protobuf/internal/errors"
+	"google.golang.org/protobuf/internal/errors"
 )
 
 // call specifies which Decoder method was invoked.

@@ -16,17 +16,17 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	protobuf "github.com/gucooing/protobuf-xor/encoding/prototext"
-	pimpl protobuf "github.com/gucooing/protobuf-xor/internal/impl"
-	protobuf "github.com/gucooing/protobuf-xor/proto"
-	protobuf "github.com/gucooing/protobuf-xor/reflect/protodesc"
-	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
-	protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
-	protobuf "github.com/gucooing/protobuf-xor/testing/protopack"
+	"google.golang.org/protobuf/encoding/prototext"
+	pimpl "google.golang.org/protobuf/internal/impl"
+	"google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/reflect/protodesc"
+	"google.golang.org/protobuf/reflect/protoreflect"
+	"google.golang.org/protobuf/reflect/protoregistry"
+	"google.golang.org/protobuf/testing/protopack"
 
-	proto2_20180125 protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/legacy/proto2_20180125_92554152"
-	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test"
-	protobuf "github.com/gucooing/protobuf-xor/types/descriptorpb"
+	proto2_20180125 "google.golang.org/protobuf/internal/testprotos/legacy/proto2_20180125_92554152"
+	testpb "google.golang.org/protobuf/internal/testprotos/test"
+	"google.golang.org/protobuf/types/descriptorpb"
 )
 
 // List of test operations to perform on messages, lists, or maps.

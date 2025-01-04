@@ -4,7 +4,7 @@
 
 package internal_gengo
 
-import "github.com/gucooing/protobuf-xor/types/gofeaturespb"
+import "google.golang.org/protobuf/types/gofeaturespb"
 
 func (m *messageInfo) isOpen() bool {
 	return m.Message.APILevel == gofeaturespb.GoFeatures_API_OPEN

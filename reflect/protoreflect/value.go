@@ -4,7 +4,7 @@
 
 package protoreflect
 
-import "github.com/gucooing/zzz/protobuf/encoding/protowire"
+import "google.golang.org/protobuf/encoding/protowire"
 
 // Enum is a reflection interface for a concrete enum value,
 // which provides type information and a getter for the enum number.
@@ -152,7 +152,7 @@ type Message interface {
 	// This method may return nil.
 	//
 	// The returned methods type is identical to
-	// [github.com/gucooing/zzz/protobuf/runtime/protoiface.Methods].
+	// [google.golang.org/protobuf/runtime/protoiface.Methods].
 	// Consult the protoiface package documentation for details.
 	ProtoMethods() *methods
 }

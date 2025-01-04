@@ -8,19 +8,19 @@ import (
 	"fmt"
 	"testing"
 
-	protobuf "github.com/gucooing/protobuf-xor/internal/flags"
-	protobuf "github.com/gucooing/protobuf-xor/proto"
-	protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl"
-	protobuf "github.com/gucooing/protobuf-xor/testing/prototest"
+	"google.golang.org/protobuf/internal/flags"
+	"google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/runtime/protoimpl"
+	"google.golang.org/protobuf/testing/prototest"
 
-	irregularpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/irregular"
-	legacypb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/legacy"
-	legacy1pb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test"
-	_ protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test/weak1"
-	_ protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test/weak2"
-	test3pb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test3"
-	testeditionspb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions"
+	irregularpb "google.golang.org/protobuf/internal/testprotos/irregular"
+	legacypb "google.golang.org/protobuf/internal/testprotos/legacy"
+	legacy1pb "google.golang.org/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb "google.golang.org/protobuf/internal/testprotos/test"
+	_ "google.golang.org/protobuf/internal/testprotos/test/weak1"
+	_ "google.golang.org/protobuf/internal/testprotos/test/weak2"
+	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
+	testeditionspb "google.golang.org/protobuf/internal/testprotos/testeditions"
 )
 
 func Test(t *testing.T) {

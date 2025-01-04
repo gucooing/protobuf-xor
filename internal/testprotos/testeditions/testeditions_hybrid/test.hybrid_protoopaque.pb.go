@@ -10,10 +10,10 @@
 package testeditions_hybrid
 
 import (
-	enums_hybrid protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/enums/enums_hybrid"
-	protoreflect protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
-	protoimpl protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl"
-	_ protobuf "github.com/gucooing/protobuf-xor/types/gofeaturespb"
+	enums_hybrid "google.golang.org/protobuf/internal/testprotos/enums/enums_hybrid"
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	_ "google.golang.org/protobuf/types/gofeaturespb"
 	reflect "reflect"
 )
 

@@ -5,9 +5,9 @@
 package filedesc
 
 import (
-	"github.com/gucooing/zzz/protobuf/internal/descopts"
-	"github.com/gucooing/zzz/protobuf/internal/pragma"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
+	"google.golang.org/protobuf/internal/descopts"
+	"google.golang.org/protobuf/internal/pragma"
+	"google.golang.org/protobuf/reflect/protoreflect"
 )
 
 var (

@@ -27,18 +27,19 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gucooing/protobuf-xor/encoding/prototext"
-	"github.com/gucooing/protobuf-xor/internal/filedesc"
-	"github.com/gucooing/protobuf-xor/internal/genid"
-	"github.com/gucooing/protobuf-xor/internal/strs"
-	"github.com/gucooing/protobuf-xor/proto"
-	"github.com/gucooing/protobuf-xor/reflect/protodesc"
-	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
-	"github.com/gucooing/protobuf-xor/reflect/protoregistry"
-	"github.com/gucooing/protobuf-xor/types/descriptorpb"
-	"github.com/gucooing/protobuf-xor/types/dynamicpb"
-	"github.com/gucooing/protobuf-xor/types/gofeaturespb"
-	"github.com/gucooing/protobuf-xor/types/pluginpb"
+	"google.golang.org/protobuf/encoding/prototext"
+	"google.golang.org/protobuf/internal/filedesc"
+	"google.golang.org/protobuf/internal/genid"
+	"google.golang.org/protobuf/internal/strs"
+	"google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/reflect/protodesc"
+	"google.golang.org/protobuf/reflect/protoreflect"
+	"google.golang.org/protobuf/reflect/protoregistry"
+	"google.golang.org/protobuf/types/dynamicpb"
+
+	"google.golang.org/protobuf/types/descriptorpb"
+	"google.golang.org/protobuf/types/gofeaturespb"
+	"google.golang.org/protobuf/types/pluginpb"
 )
 
 const goPackageDocURL = "https://protobuf.dev/reference/go/go-generated#package"
@@ -276,7 +277,7 @@ func (opts Options) New(req *pluginpb.CodeGeneratorRequest) (*Plugin, error) {
 	// .proto source file specifying the full import path of the Go package
 	// associated with this file.
 	//
-	//     option go_package = "github.com/gucooing/protobuf-xor/types/known/anypb";
+	//     option go_package = "google.golang.org/protobuf/types/known/anypb";
 	//
 	// Alternatively, build systems which want to exert full control over
 	// import paths may specify M<filename>=<import_path> flags.
@@ -1407,7 +1408,7 @@ func newGoIdent(f *File, d protoreflect.Descriptor) GoIdent {
 }
 
 // A GoImportPath is the import path of a Go package.
-// For example: protobuf "github.com/gucooing/protobuf-xor/compiler/protogen"
+// For example: "google.golang.org/protobuf/compiler/protogen"
 type GoImportPath string
 
 func (p GoImportPath) String() string { return strconv.Quote(string(p)) }

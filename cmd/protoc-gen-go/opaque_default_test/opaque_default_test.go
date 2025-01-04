@@ -7,8 +7,8 @@ package opaque_default_test
 import (
 	"testing"
 
-	enumopaquepb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/enums/enums_opaque"
-	testopaquepb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_opaque"
+	enumopaquepb "google.golang.org/protobuf/internal/testprotos/enums/enums_opaque"
+	testopaquepb "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_opaque"
 )
 
 // From the spec: "Proto2 enums use the first syntactic entry in the enum

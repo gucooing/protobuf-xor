@@ -11,7 +11,7 @@ import (
 	fmt "fmt"
 	math "math"
 
-	proto protobuf "github.com/gucooing/protobuf-xor/internal/protolegacy"
+	proto "google.golang.org/protobuf/internal/protolegacy"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

@@ -9,7 +9,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"google.golang.org/protobuf/reflect/protoreflect"
 )
 
 type messageField struct {

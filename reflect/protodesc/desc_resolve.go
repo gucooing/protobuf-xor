@@ -5,12 +5,13 @@
 package protodesc
 
 import (
-	"github.com/gucooing/protobuf-xor/internal/encoding/defval"
-	"github.com/gucooing/protobuf-xor/internal/errors"
-	"github.com/gucooing/protobuf-xor/internal/filedesc"
-	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
-	"github.com/gucooing/zzz/protobuf/types/descriptorpb"
+	"google.golang.org/protobuf/internal/encoding/defval"
+	"google.golang.org/protobuf/internal/errors"
+	"google.golang.org/protobuf/internal/filedesc"
+	"google.golang.org/protobuf/reflect/protoreflect"
+	"google.golang.org/protobuf/reflect/protoregistry"
+
+	"google.golang.org/protobuf/types/descriptorpb"
 )
 
 // resolver is a wrapper around a local registry of declarations within the file

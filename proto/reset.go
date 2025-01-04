@@ -7,7 +7,7 @@ package proto
 import (
 	"fmt"
 
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
+	"google.golang.org/protobuf/reflect/protoreflect"
 )
 
 // Reset clears every field in the message.

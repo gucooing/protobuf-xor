@@ -10,14 +10,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	protobuf "github.com/gucooing/protobuf-xor/internal/detrand"
-	protobuf "github.com/gucooing/protobuf-xor/proto"
-	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
-	protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
-	protobuf "github.com/gucooing/protobuf-xor/testing/protopack"
-	protobuf "github.com/gucooing/protobuf-xor/types/known/anypb"
+	"google.golang.org/protobuf/internal/detrand"
+	"google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/reflect/protoreflect"
+	"google.golang.org/protobuf/reflect/protoregistry"
+	"google.golang.org/protobuf/testing/protopack"
+	"google.golang.org/protobuf/types/known/anypb"
 
-	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test"
+	testpb "google.golang.org/protobuf/internal/testprotos/test"
 )
 
 func init() {

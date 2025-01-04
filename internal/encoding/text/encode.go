@@ -11,8 +11,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/gucooing/protobuf-xor/internal/detrand"
-	"github.com/gucooing/zzz/protobuf/internal/errors"
+	"google.golang.org/protobuf/internal/detrand"
+	"google.golang.org/protobuf/internal/errors"
 )
 
 // encType represents an encoding type.

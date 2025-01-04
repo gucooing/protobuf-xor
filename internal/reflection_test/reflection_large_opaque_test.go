@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_opaque"
-	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	testpb "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_opaque"
+	"google.golang.org/protobuf/reflect/protoreflect"
 )
 
 func TestLargeOpaqueConcrete(t *testing.T) {

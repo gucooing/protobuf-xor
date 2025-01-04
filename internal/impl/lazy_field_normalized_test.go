@@ -10,11 +10,11 @@ import (
 	"strings"
 	"testing"
 
-	protobuf "github.com/gucooing/protobuf-xor/encoding/protowire"
-	protobuf "github.com/gucooing/protobuf-xor/proto"
-	protobuf "github.com/gucooing/protobuf-xor/testing/protopack"
+	"google.golang.org/protobuf/encoding/protowire"
+	"google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/testing/protopack"
 
-	lnwtpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/lazy"
+	lnwtpb "google.golang.org/protobuf/internal/testprotos/lazy"
 )
 
 func unmarshalsTheSame(b []byte, expected *lnwtpb.FTop) error {

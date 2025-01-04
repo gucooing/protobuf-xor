@@ -8,9 +8,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/gucooing/protobuf-xor/compiler/protogen"
-	"github.com/gucooing/protobuf-xor/encoding/protowire"
-	"github.com/gucooing/zzz/protobuf/types/descriptorpb"
+	"google.golang.org/protobuf/compiler/protogen"
+	"google.golang.org/protobuf/encoding/protowire"
+
+	"google.golang.org/protobuf/types/descriptorpb"
 )
 
 type fileInfo struct {

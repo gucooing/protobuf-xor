@@ -4,7 +4,7 @@
 
 package genid
 
-import protoreflect "github.com/gucooing/zzz/protobuf/reflect/protoreflect"
+import "google.golang.org/protobuf/reflect/protoreflect"
 
 // Generic field name and number for messages in wrappers.proto.
 const (

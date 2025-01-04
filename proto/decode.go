@@ -5,15 +5,15 @@
 package proto
 
 import (
-	"github.com/gucooing/protobuf-xor/encoding/protowire"
-	"github.com/gucooing/protobuf-xor/internal/genid"
-	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
-	"github.com/gucooing/protobuf-xor/reflect/protoregistry"
-	"github.com/gucooing/protobuf-xor/runtime/protoiface"
-	"github.com/gucooing/zzz/protobuf/internal/encoding/messageset"
-	"github.com/gucooing/zzz/protobuf/internal/errors"
-	"github.com/gucooing/zzz/protobuf/internal/flags"
-	"github.com/gucooing/zzz/protobuf/internal/pragma"
+	"google.golang.org/protobuf/encoding/protowire"
+	"google.golang.org/protobuf/internal/encoding/messageset"
+	"google.golang.org/protobuf/internal/errors"
+	"google.golang.org/protobuf/internal/flags"
+	"google.golang.org/protobuf/internal/genid"
+	"google.golang.org/protobuf/internal/pragma"
+	"google.golang.org/protobuf/reflect/protoreflect"
+	"google.golang.org/protobuf/reflect/protoregistry"
+	"google.golang.org/protobuf/runtime/protoiface"
 )
 
 // UnmarshalOptions configures the unmarshaler.

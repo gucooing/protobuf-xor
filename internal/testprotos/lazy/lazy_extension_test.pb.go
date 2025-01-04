@@ -8,9 +8,9 @@
 package lazy
 
 import (
-	messagesetpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/messageset/messagesetpb"
-	protoreflect protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
-	protoimpl protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl"
+	messagesetpb "google.golang.org/protobuf/internal/testprotos/messageset/messagesetpb"
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

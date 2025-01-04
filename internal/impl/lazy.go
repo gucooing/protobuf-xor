@@ -12,12 +12,12 @@ import (
 	"sort"
 	"sync/atomic"
 
-	protobuf "github.com/gucooing/protobuf-xor/encoding/protowire"
-	protobuf "github.com/gucooing/protobuf-xor/internal/errors"
-	protobuf "github.com/gucooing/protobuf-xor/internal/protolazy"
-	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
-	preg protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
-	piface protobuf "github.com/gucooing/protobuf-xor/runtime/protoiface"
+	"google.golang.org/protobuf/encoding/protowire"
+	"google.golang.org/protobuf/internal/errors"
+	"google.golang.org/protobuf/internal/protolazy"
+	"google.golang.org/protobuf/reflect/protoreflect"
+	preg "google.golang.org/protobuf/reflect/protoregistry"
+	piface "google.golang.org/protobuf/runtime/protoiface"
 )
 
 var enableLazy int32 = func() int32 {

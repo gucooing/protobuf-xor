@@ -7,17 +7,17 @@ package prototext_test
 import (
 	"testing"
 
-	protobuf "github.com/gucooing/protobuf-xor/encoding/prototext"
-	protobuf "github.com/gucooing/protobuf-xor/proto"
-	protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
+	"google.golang.org/protobuf/encoding/prototext"
+	"google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/reflect/protoregistry"
 
-	pb2 protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/textpb2"
-	protobuf "github.com/gucooing/protobuf-xor/types/known/anypb"
-	protobuf "github.com/gucooing/protobuf-xor/types/known/durationpb"
-	protobuf "github.com/gucooing/protobuf-xor/types/known/emptypb"
-	protobuf "github.com/gucooing/protobuf-xor/types/known/structpb"
-	protobuf "github.com/gucooing/protobuf-xor/types/known/timestamppb"
-	protobuf "github.com/gucooing/protobuf-xor/types/known/wrapperspb"
+	pb2 "google.golang.org/protobuf/internal/testprotos/textpb2"
+	"google.golang.org/protobuf/types/known/anypb"
+	"google.golang.org/protobuf/types/known/durationpb"
+	"google.golang.org/protobuf/types/known/emptypb"
+	"google.golang.org/protobuf/types/known/structpb"
+	"google.golang.org/protobuf/types/known/timestamppb"
+	"google.golang.org/protobuf/types/known/wrapperspb"
 )
 
 func TestRoundTrip(t *testing.T) {

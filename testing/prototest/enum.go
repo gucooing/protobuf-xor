@@ -7,7 +7,7 @@ package prototest
 import (
 	"testing"
 
-	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"google.golang.org/protobuf/reflect/protoreflect"
 )
 
 // Enum tests an [protoreflect.EnumType] implementation.

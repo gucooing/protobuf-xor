@@ -8,10 +8,10 @@ package dynamicpb
 import (
 	"math"
 
-	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
-	"github.com/gucooing/protobuf-xor/runtime/protoiface"
-	"github.com/gucooing/protobuf-xor/runtime/protoimpl"
-	"github.com/gucooing/zzz/protobuf/internal/errors"
+	"google.golang.org/protobuf/internal/errors"
+	"google.golang.org/protobuf/reflect/protoreflect"
+	"google.golang.org/protobuf/runtime/protoiface"
+	"google.golang.org/protobuf/runtime/protoimpl"
 )
 
 // enum is a dynamic protoreflect.Enum.
@@ -49,7 +49,7 @@ type extensionType struct {
 
 // A Message is a dynamically constructed protocol buffer message.
 //
-// Message implements the [github.com/gucooing/zzz/protobuf/proto.Message] interface,
+// Message implements the [google.golang.org/protobuf/proto.Message] interface,
 // and may be used with all  standard proto package functions
 // such as Marshal, Unmarshal, and so forth.
 //

@@ -12,8 +12,9 @@ import (
 	"unicode/utf8"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/gucooing/protobuf-xor/internal/encoding/text"
-	"github.com/gucooing/zzz/protobuf/internal/flags"
+
+	"google.golang.org/protobuf/internal/encoding/text"
+	"google.golang.org/protobuf/internal/flags"
 )
 
 var eofErr = text.ErrUnexpectedEOF.Error()

@@ -12,16 +12,16 @@
 package textpbeditions_hybrid
 
 import (
-	protoreflect protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
-	protoimpl protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl"
-	_ protobuf "github.com/gucooing/protobuf-xor/types/gofeaturespb"
-	anypb protobuf "github.com/gucooing/protobuf-xor/types/known/anypb"
-	durationpb protobuf "github.com/gucooing/protobuf-xor/types/known/durationpb"
-	emptypb protobuf "github.com/gucooing/protobuf-xor/types/known/emptypb"
-	fieldmaskpb protobuf "github.com/gucooing/protobuf-xor/types/known/fieldmaskpb"
-	structpb protobuf "github.com/gucooing/protobuf-xor/types/known/structpb"
-	timestamppb protobuf "github.com/gucooing/protobuf-xor/types/known/timestamppb"
-	wrapperspb protobuf "github.com/gucooing/protobuf-xor/types/known/wrapperspb"
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	_ "google.golang.org/protobuf/types/gofeaturespb"
+	anypb "google.golang.org/protobuf/types/known/anypb"
+	durationpb "google.golang.org/protobuf/types/known/durationpb"
+	emptypb "google.golang.org/protobuf/types/known/emptypb"
+	fieldmaskpb "google.golang.org/protobuf/types/known/fieldmaskpb"
+	structpb "google.golang.org/protobuf/types/known/structpb"
+	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
+	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
 	reflect "reflect"
 )
 

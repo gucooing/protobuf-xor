@@ -9,12 +9,12 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	protobuf "github.com/gucooing/protobuf-xor/encoding/prototext"
-	protobuf "github.com/gucooing/protobuf-xor/proto"
-	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
-	protobuf "github.com/gucooing/protobuf-xor/testing/protocmp"
+	"google.golang.org/protobuf/encoding/prototext"
+	"google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/reflect/protoreflect"
+	"google.golang.org/protobuf/testing/protocmp"
 
-	testfuzzpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/editionsfuzztest"
+	testfuzzpb "google.golang.org/protobuf/internal/testprotos/editionsfuzztest"
 )
 
 // roundTripAndCompareProto tests if a prototext.Marshal/Unmarshal roundtrip

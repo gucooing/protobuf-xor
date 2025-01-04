@@ -13,8 +13,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/gucooing/protobuf-xor/proto"
-	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+
+	"google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/reflect/protoreflect"
 )
 
 var (

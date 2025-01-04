@@ -10,10 +10,10 @@ import (
 	"math"
 	"unicode/utf8"
 
-	protobuf "github.com/gucooing/protobuf-xor/encoding/protowire"
-	protobuf "github.com/gucooing/protobuf-xor/internal/errors"
-	protobuf "github.com/gucooing/protobuf-xor/internal/strs"
-	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"google.golang.org/protobuf/encoding/protowire"
+	"google.golang.org/protobuf/internal/errors"
+	"google.golang.org/protobuf/internal/strs"
+	"google.golang.org/protobuf/reflect/protoreflect"
 )
 
 var wireTypes = map[protoreflect.Kind]protowire.Type{

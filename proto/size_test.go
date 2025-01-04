@@ -4,7 +4,9 @@
 
 package proto_test
 
-import "github.com/gucooing/zzz/protobuf/proto"
+import (
+	"google.golang.org/protobuf/proto"
+)
 
 // Checking if [Size] returns 0 is an easy way to recognize empty messages:
 func ExampleSize() {

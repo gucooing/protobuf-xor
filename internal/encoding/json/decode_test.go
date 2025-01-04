@@ -12,7 +12,8 @@ import (
 	"unicode/utf8"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/gucooing/protobuf-xor/internal/encoding/json"
+
+	"google.golang.org/protobuf/internal/encoding/json"
 )
 
 type R struct {

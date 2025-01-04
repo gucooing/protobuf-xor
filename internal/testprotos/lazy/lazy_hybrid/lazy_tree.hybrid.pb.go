@@ -10,9 +10,9 @@
 package lazy_hybrid
 
 import (
-	protoreflect protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
-	protoimpl protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl"
-	_ protobuf "github.com/gucooing/protobuf-xor/types/gofeaturespb"
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	_ "google.golang.org/protobuf/types/gofeaturespb"
 	reflect "reflect"
 )
 

@@ -5,9 +5,9 @@
 package proto
 
 import (
-	"github.com/gucooing/protobuf-xor/internal/errors"
-	"github.com/gucooing/protobuf-xor/runtime/protoiface"
-	"github.com/gucooing/zzz/protobuf/reflect/protoreflect"
+	"google.golang.org/protobuf/internal/errors"
+	"google.golang.org/protobuf/reflect/protoreflect"
+	"google.golang.org/protobuf/runtime/protoiface"
 )
 
 // CheckInitialized returns an error if any required fields in m are not set.

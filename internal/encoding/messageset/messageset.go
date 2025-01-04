@@ -6,11 +6,11 @@
 package messageset
 
 import (
-	"errors"
 	"math"
 
-	"github.com/gucooing/protobuf-xor/encoding/protowire"
-	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"google.golang.org/protobuf/encoding/protowire"
+	"google.golang.org/protobuf/internal/errors"
+	"google.golang.org/protobuf/reflect/protoreflect"
 )
 
 // The MessageSet wire format is equivalent to a message defined as follows,

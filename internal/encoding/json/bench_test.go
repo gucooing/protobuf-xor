@@ -7,7 +7,7 @@ package json_test
 import (
 	"testing"
 
-	"github.com/gucooing/zzz/protobuf/internal/encoding/json"
+	"google.golang.org/protobuf/internal/encoding/json"
 )
 
 func BenchmarkFloat(b *testing.B) {

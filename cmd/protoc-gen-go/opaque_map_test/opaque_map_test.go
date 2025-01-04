@@ -7,7 +7,7 @@ package opaque_map_test
 import (
 	"testing"
 
-	testopaquepb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_opaque"
+	testopaquepb "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_opaque"
 )
 
 func TestOpaqueMap(t *testing.T) {

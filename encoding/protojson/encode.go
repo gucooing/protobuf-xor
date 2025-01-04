@@ -6,19 +6,19 @@ package protojson
 
 import (
 	"encoding/base64"
-	"encoding/json"
 	"fmt"
 
-	"github.com/gucooing/protobuf-xor/internal/errors"
-	"github.com/gucooing/protobuf-xor/internal/filedesc"
-	"github.com/gucooing/protobuf-xor/internal/order"
-	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/internal/encoding/messageset"
-	"github.com/gucooing/zzz/protobuf/internal/flags"
-	"github.com/gucooing/zzz/protobuf/internal/genid"
-	"github.com/gucooing/zzz/protobuf/internal/pragma"
-	"github.com/gucooing/zzz/protobuf/proto"
-	"github.com/gucooing/zzz/protobuf/reflect/protoregistry"
+	"google.golang.org/protobuf/internal/encoding/json"
+	"google.golang.org/protobuf/internal/encoding/messageset"
+	"google.golang.org/protobuf/internal/errors"
+	"google.golang.org/protobuf/internal/filedesc"
+	"google.golang.org/protobuf/internal/flags"
+	"google.golang.org/protobuf/internal/genid"
+	"google.golang.org/protobuf/internal/order"
+	"google.golang.org/protobuf/internal/pragma"
+	"google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/reflect/protoreflect"
+	"google.golang.org/protobuf/reflect/protoregistry"
 )
 
 const defaultIndent = "  "

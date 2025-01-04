@@ -8,17 +8,17 @@ import (
 	"reflect"
 	"testing"
 
-	protobuf "github.com/gucooing/protobuf-xor/compiler/protogen"
-	protobuf "github.com/gucooing/protobuf-xor/internal/genid"
-	protobuf "github.com/gucooing/protobuf-xor/proto"
-	protobuf "github.com/gucooing/protobuf-xor/reflect/protodesc"
-	descpb protobuf "github.com/gucooing/protobuf-xor/types/descriptorpb"
-	protobuf "github.com/gucooing/protobuf-xor/types/gofeaturespb"
-	protobuf "github.com/gucooing/protobuf-xor/types/pluginpb"
+	"google.golang.org/protobuf/compiler/protogen"
+	"google.golang.org/protobuf/internal/genid"
+	"google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/reflect/protodesc"
+	descpb "google.golang.org/protobuf/types/descriptorpb"
+	"google.golang.org/protobuf/types/gofeaturespb"
+	"google.golang.org/protobuf/types/pluginpb"
 
-	hpb protobuf "github.com/gucooing/protobuf-xor/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid"
-	opb protobuf "github.com/gucooing/protobuf-xor/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque"
-	pb protobuf "github.com/gucooing/protobuf-xor/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open"
+	hpb "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_hybrid"
+	opb "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_opaque"
+	pb "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/nameclash/test_name_clash_open"
 )
 
 // TestOpenMangling tests the backwards compatible mangling of fields

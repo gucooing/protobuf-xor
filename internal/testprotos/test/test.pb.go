@@ -8,11 +8,11 @@
 package test
 
 import (
-	enums protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/enums"
-	required protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/required"
-	proto protobuf "github.com/gucooing/protobuf-xor/proto"
-	protoreflect protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
-	protoimpl protobuf "github.com/gucooing/protobuf-xor/runtime/protoimpl"
+	enums "google.golang.org/protobuf/internal/testprotos/enums"
+	required "google.golang.org/protobuf/internal/testprotos/required"
+	proto "google.golang.org/protobuf/proto"
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

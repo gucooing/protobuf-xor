@@ -9,10 +9,10 @@ import (
 	"sort"
 	"sync/atomic"
 
-	protobuf "github.com/gucooing/protobuf-xor/internal/flags"
-	protobuf "github.com/gucooing/protobuf-xor/internal/protolazy"
-	protobuf "github.com/gucooing/protobuf-xor/proto"
-	piface protobuf "github.com/gucooing/protobuf-xor/runtime/protoiface"
+	"google.golang.org/protobuf/internal/flags"
+	"google.golang.org/protobuf/internal/protolazy"
+	"google.golang.org/protobuf/proto"
+	piface "google.golang.org/protobuf/runtime/protoiface"
 )
 
 type marshalOptions struct {

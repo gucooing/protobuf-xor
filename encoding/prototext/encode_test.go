@@ -12,18 +12,18 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	protobuf "github.com/gucooing/protobuf-xor/encoding/prototext"
-	protobuf "github.com/gucooing/protobuf-xor/internal/detrand"
-	protobuf "github.com/gucooing/protobuf-xor/internal/flags"
-	protobuf "github.com/gucooing/protobuf-xor/internal/protobuild"
-	protobuf "github.com/gucooing/protobuf-xor/proto"
-	protobuf "github.com/gucooing/protobuf-xor/reflect/protoregistry"
-	protobuf "github.com/gucooing/protobuf-xor/testing/protopack"
+	"google.golang.org/protobuf/encoding/prototext"
+	"google.golang.org/protobuf/internal/detrand"
+	"google.golang.org/protobuf/internal/flags"
+	"google.golang.org/protobuf/internal/protobuild"
+	"google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/reflect/protoregistry"
+	"google.golang.org/protobuf/testing/protopack"
 
-	pb2 protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/textpb2"
-	pb3 protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/textpb3"
-	pbeditions protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/textpbeditions"
-	protobuf "github.com/gucooing/protobuf-xor/types/known/anypb"
+	pb2 "google.golang.org/protobuf/internal/testprotos/textpb2"
+	pb3 "google.golang.org/protobuf/internal/testprotos/textpb3"
+	pbeditions "google.golang.org/protobuf/internal/testprotos/textpbeditions"
+	"google.golang.org/protobuf/types/known/anypb"
 )
 
 func init() {

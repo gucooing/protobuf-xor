@@ -25,10 +25,10 @@ import (
 	"testing"
 	"unsafe"
 
-	protobuf "github.com/gucooing/protobuf-xor/internal/test/race"
-	mixedpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/mixed"
-	testopaquepb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions/testeditions_opaque"
-	protobuf "github.com/gucooing/protobuf-xor/proto"
+	"google.golang.org/protobuf/internal/test/race"
+	mixedpb "google.golang.org/protobuf/internal/testprotos/mixed"
+	testopaquepb "google.golang.org/protobuf/internal/testprotos/testeditions/testeditions_opaque"
+	"google.golang.org/protobuf/proto"
 )
 
 // To get some output from the subprocess, set this to true

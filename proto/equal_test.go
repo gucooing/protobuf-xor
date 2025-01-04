@@ -9,15 +9,15 @@ import (
 	"math"
 	"testing"
 
-	protobuf "github.com/gucooing/protobuf-xor/encoding/prototext"
-	protobuf "github.com/gucooing/protobuf-xor/internal/pragma"
-	protobuf "github.com/gucooing/protobuf-xor/internal/protobuild"
-	protobuf "github.com/gucooing/protobuf-xor/proto"
-	protobuf "github.com/gucooing/protobuf-xor/testing/protopack"
+	"google.golang.org/protobuf/encoding/prototext"
+	"google.golang.org/protobuf/internal/pragma"
+	"google.golang.org/protobuf/internal/protobuild"
+	"google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/testing/protopack"
 
-	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test"
-	test3pb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test3"
-	testeditionspb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/testeditions"
+	testpb "google.golang.org/protobuf/internal/testprotos/test"
+	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
+	testeditionspb "google.golang.org/protobuf/internal/testprotos/testeditions"
 )
 
 func TestEqual(t *testing.T) {

@@ -5,17 +5,18 @@
 package filedesc
 
 import (
-	"errors"
 	"fmt"
 	"math"
 	"sort"
 	"sync"
 
-	"github.com/gucooing/protobuf-xor/encoding/protowire"
-	"github.com/gucooing/protobuf-xor/reflect/protoreflect"
-	"github.com/gucooing/zzz/protobuf/internal/descfmt"
-	"github.com/gucooing/zzz/protobuf/internal/genid"
-	"github.com/gucooing/zzz/protobuf/internal/pragma"
+	"google.golang.org/protobuf/internal/genid"
+
+	"google.golang.org/protobuf/encoding/protowire"
+	"google.golang.org/protobuf/internal/descfmt"
+	"google.golang.org/protobuf/internal/errors"
+	"google.golang.org/protobuf/internal/pragma"
+	"google.golang.org/protobuf/reflect/protoreflect"
 )
 
 type FileImports []protoreflect.FileImport

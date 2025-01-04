@@ -10,13 +10,13 @@ import (
 	"io"
 	"testing"
 
-	protobuf "github.com/gucooing/protobuf-xor/proto"
-	protobuf "github.com/gucooing/protobuf-xor/reflect/protodesc"
-	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
+	"google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/reflect/protodesc"
+	"google.golang.org/protobuf/reflect/protoreflect"
 
-	testpb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test"
-	_ protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/test/weak1"
-	protobuf "github.com/gucooing/protobuf-xor/types/descriptorpb"
+	testpb "google.golang.org/protobuf/internal/testprotos/test"
+	_ "google.golang.org/protobuf/internal/testprotos/test/weak1"
+	"google.golang.org/protobuf/types/descriptorpb"
 )
 
 var testFile = new(testpb.TestAllTypes).ProtoReflect().Descriptor().ParentFile()

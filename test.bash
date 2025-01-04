@@ -3,5 +3,5 @@
 # Use of this source code is governed by a BSD-style
 # license that can be found in the LICENSE file.
 
-go test github.com/gucooing/zzz/protobuf -run='^TestIntegration$' -v -timeout=60m -count=1 -failfast "$@"
+go test google.golang.org/protobuf -run='^TestIntegration$' -v -timeout=60m -count=1 -failfast "$@"
 exit $?

@@ -9,17 +9,17 @@ import (
 	"strings"
 	"time"
 
-	protobuf "github.com/gucooing/protobuf-xor/encoding/protojson"
-	protobuf "github.com/gucooing/protobuf-xor/internal/detrand"
-	protobuf "github.com/gucooing/protobuf-xor/proto"
-	protobuf "github.com/gucooing/protobuf-xor/reflect/protopath"
-	protobuf "github.com/gucooing/protobuf-xor/reflect/protorange"
-	protobuf "github.com/gucooing/protobuf-xor/reflect/protoreflect"
-	protobuf "github.com/gucooing/protobuf-xor/testing/protopack"
-	protobuf "github.com/gucooing/protobuf-xor/types/known/anypb"
-	protobuf "github.com/gucooing/protobuf-xor/types/known/timestamppb"
+	"google.golang.org/protobuf/encoding/protojson"
+	"google.golang.org/protobuf/internal/detrand"
+	"google.golang.org/protobuf/proto"
+	"google.golang.org/protobuf/reflect/protopath"
+	"google.golang.org/protobuf/reflect/protorange"
+	"google.golang.org/protobuf/reflect/protoreflect"
+	"google.golang.org/protobuf/testing/protopack"
+	"google.golang.org/protobuf/types/known/anypb"
+	"google.golang.org/protobuf/types/known/timestamppb"
 
-	newspb protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/news"
+	newspb "google.golang.org/protobuf/internal/testprotos/news"
 )
 
 func init() {

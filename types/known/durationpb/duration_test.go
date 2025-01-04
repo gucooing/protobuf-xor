@@ -12,10 +12,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	protobuf "github.com/gucooing/protobuf-xor/internal/detrand"
-	protobuf "github.com/gucooing/protobuf-xor/testing/protocmp"
+	"google.golang.org/protobuf/internal/detrand"
+	"google.golang.org/protobuf/testing/protocmp"
 
-	durpb protobuf "github.com/gucooing/protobuf-xor/types/known/durationpb"
+	durpb "google.golang.org/protobuf/types/known/durationpb"
 )
 
 func init() {

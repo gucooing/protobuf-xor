@@ -5,5 +5,5 @@
 package bug1052_test
 
 import (
-	_ protobuf "github.com/gucooing/protobuf-xor/internal/testprotos/legacy/bug1052"
+	_ "google.golang.org/protobuf/internal/testprotos/legacy/bug1052"
 )

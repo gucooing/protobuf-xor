@@ -19,7 +19,7 @@ It has these top-level messages:
 */
 package proto2_20180125_92554152
 
-import proto protobuf "github.com/gucooing/protobuf-xor/internal/protolegacy"
+import proto "google.golang.org/protobuf/internal/protolegacy"
 import fmt "fmt"
 import math "math"
 
