@@ -646,7 +646,7 @@ func sizeInt32NoZero(p pointer, f *coderFieldInfo, opts marshalOptions) (size in
 	if v == 0 {
 		return 0
 	}
-	return f.tagsize + protowire.SizeVarint(uint64(v))
+	return f.tagsize + protowire.SizeVarint(uint64(v)^f.xorIndex)
 }
 
 // appendInt32NoZero wire encodes a int32 pointer as a Int32.
@@ -1478,7 +1478,7 @@ func sizeUint32NoZero(p pointer, f *coderFieldInfo, opts marshalOptions) (size i
 	if v == 0 {
 		return 0
 	}
-	return f.tagsize + protowire.SizeVarint(uint64(v))
+	return f.tagsize + protowire.SizeVarint(uint64(v)^f.xorIndex)
 }
 
 // appendUint32NoZero wire encodes a uint32 pointer as a Uint32.
@@ -1895,7 +1895,7 @@ func sizeInt64NoZero(p pointer, f *coderFieldInfo, opts marshalOptions) (size in
 	if v == 0 {
 		return 0
 	}
-	return f.tagsize + protowire.SizeVarint(uint64(v))
+	return f.tagsize + protowire.SizeVarint(uint64(v)^f.xorIndex)
 }
 
 // appendInt64NoZero wire encodes a int64 pointer as a Int64.
@@ -2727,7 +2727,7 @@ func sizeUint64NoZero(p pointer, f *coderFieldInfo, opts marshalOptions) (size i
 	if v == 0 {
 		return 0
 	}
-	return f.tagsize + protowire.SizeVarint(v)
+	return f.tagsize + protowire.SizeVarint(v^f.xorIndex)
 }
 
 // appendUint64NoZero wire encodes a uint64 pointer as a Uint64.
